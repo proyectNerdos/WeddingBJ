@@ -1,5 +1,5 @@
 <footer class="wpo-site-footer">
-    <div class="wpo-upper-footer">
+    {{-- <div class="wpo-upper-footer">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col col-xl-3  col-lg-4 col-md-6 col-sm-12 col-12">
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div> <!-- end container -->
-    </div>
+    </div> --}}
     <div class="wpo-lower-footer">
         <div class="container">
             <div class="row">

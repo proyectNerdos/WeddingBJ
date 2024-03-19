@@ -43,7 +43,7 @@
                             </div>
                             <div class="col-lg-2 col-md-6 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand" href="index.html">¡Sí, quiero!</a>
+                                    <a class="navbar-brand" href="index.html">Sí, quiero!</a>
                                 </div>
                             </div>
                             <div class="col-lg-8 col-md-1 col-1">
@@ -52,129 +52,18 @@
                                     <ul class="nav navbar-nav mb-2 mb-lg-0">
                                         <li class="menu-item-has-children">
                                             <a class="active" href="#">Home</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="index.html">Wedding Home 1</a></li>
-                                                <li><a class="active" href="index-2.html">Wedding Home 2</a></li>
-                                                <li><a href="index-3.html">Announcement Home 1</a></li>
-                                                <li><a href="index-4.html">Announcement Home 2</a></li>
-                                                <li><a href="index-5.html">Muslim Wedding Home</a></li>
-                                                <li><a href="index-6.html">Asian Wedding Home</a></li>
-                                                <li><a href="index-rtl.html">Muslim Wedding Home(RTL)</a></li>
-                                                <li><a href="invitation-1.html">Wedding Invitation 1</a></li>
-                                                <li><a href="invitation-2.html">Wedding Invitation 2</a></li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Event Planner Homes</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="index-7.html">Wedding Planner 1</a></li>
-                                                        <li><a href="index-8.html">Wedding Planner 2</a></li>
-                                                        <li><a href="index-9.html">Wedding Planner 3</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Wedding Shop Homes</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="shop-home.html">Bridal Shop</a></li>
-                                                        <li><a href="shop-home-2.html">Wedding Bouquet Shop</a></li>
-                                                        <li><a href="shop-home-video-bg.html">Bouquet Shop Video Bg</a></li>
-                                                        <li><a href="shop-home-3.html">Wedding Cake Shop</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="#">Pages</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="about.html">About</a></li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="story.html">Our Story</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="story.html">Our Story Style 1</a></li>
-                                                        <li><a href="story-2.html">Our Story Style 2</a></li>
-                                                        <li><a href="story-3.html">Our Story Style 3</a></li>
-                                                        <li><a href="story-4.html">Our Story Style 4</a></li>
-                                                        <li><a href="story-5.html">Our Story Style 5</a></li>
-                                                        <li><a href="story-6.html">Our Story Style 6</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="accomodation.html">Accomodation</a></li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="rsvp.html">RSVP</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="rsvp.html">RSVP Style 1</a></li>
-                                                        <li><a href="rsvp-2.html">RSVP Style 2</a></li>
-                                                        <li><a href="rsvp-3.html">RSVP Style 3</a></li>
-                                                        <li><a href="rsvp-4.html">RSVP Style 4</a></li>
-                                                        <li><a href="rsvp-5.html">RSVP Style 5</a></li>
-                                                        <li><a href="rsvp-6.html">RSVP Style 6</a></li>
-                                                        <li><a href="rsvp-7.html">RSVP Style 7</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="gallery.html">Gallery</a></li>
-                                                <li><a href="planner.html">Planners</a></li>
-                                                <li><a href="team-single.html">Planner Single</a></li>
-                                                <li><a href="groom-bride.html">Brides & Grooms</a></li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="service.html">Serevice</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="service.html">Serevice</a></li>
-                                                        <li><a href="service-s2.html">Serevice S2</a></li>
-                                                        <li><a href="service-s3.html">Serevice S3</a></li>
-                                                        <li><a href="service-single.html">Serevice Single</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Auth Pages</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="login.html">Login</a>
-                                                        </li>
-                                                        <li><a href="register.html">Register</a></li>
-                                                        <li><a href="forgot.html">Forgot Password</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="coming.html">Coming Soon</a></li>
-                                                <li><a href="404.html">404 Error</a></li>
-                                            </ul>
+                                            <a href="nosotros">Nosotros</a>
+
+                                        <li class="menu-item-has-children">
+                                            <a href="fotos.html">Fotos</a>
+
+                                        </li>
+                                        <li><a href="#event">Ceremonia y Fiesta</a>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="portfolio-grid.html">Portfolio</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
-                                                <li><a href="portfolio-masonary.html">Portfolio Masonary</a></li>
-                                                <li><a href="portfolio-masonary-s2.html">Portfolio Masonary S2</a></li>
-                                                <li><a href="portfolio-masonary-s3.html">Portfolio Masonary S3</a></li>
-                                                <li><a href="portfolio-single.html">Portfolio Single</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="shop.html">Shop</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="shop.html">Shop</a></li>
-                                                <li><a href="shop-single.html">Shop Single</a></li>
-                                                <li><a href="cart.html">Cart</a></li>
-                                                <li><a href="wishlist.html">Wishlist</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li class="menu-item-has-children">
-                                            <a href="blog.html">Blog</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog right sidebar</a></li>
-                                                <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                                <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Blog details</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="blog-single.html">Blog details right sidebar</a>
-                                                        </li>
-                                                        <li><a href="blog-single-left-sidebar.html">Blog details left
-                                                                sidebar</a></li>
-                                                        <li><a href="blog-single-fullwidth.html">Blog details
-                                                                fullwidth</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
+                                            <a href="asistencia">Asistencia</a>
                                         </li>
                                     </ul>
 
@@ -250,7 +139,7 @@
                                 <div class="wpo-static-hero-inner">
                                     <div class="shape-1 wow fadeInUp" data-wow-duration="1400ms"><img src="{{ asset('theme-front/casamiento/images/slider/shape1.svg') }}" alt=""></div>
                                     <div class="slide-title wow fadeInUp" data-wow-duration="1500ms">
-                                        <h2>Belén y José Maria</h2>
+                                        <h2>Belén & José Maria</h2>
                                     </div>
                                     <div data-swiper-parallax="400" class="slide-text wow fadeInUp" data-wow-duration="1600ms">
                                         <p>¡Nos Casamos!</p>
@@ -311,9 +200,8 @@
                         <div class="col col-md-12 col-12">
                             <div class="couple-item">
                                 <div class="couple-img-wrap wow fadeInLeftSlow" data-wow-duration="1700ms">
-                                    <div class="couple-img" style="mask-image: url(assets/images/couple/mask-1.svg); -webkit-mask-image: url(assets/images/couple/mask-1.svg);">
+                                    <div class="couple-img" style="mask-image: url({{ asset('theme-front/casamiento/images/couple/mask-1.svg') }}); -webkit-mask-image: url({{ asset('theme-front/casamiento/images/couple/mask-1.svg') }});">
                                         <img src="{{ asset('theme-front/casamiento/images/couple/1.jpg') }}" alt="">
-
                                     </div>
                                     <div class="c-shape">
                                         <img src="{{ asset('theme-front/casamiento/images/couple/image-bg.svg') }}" alt="">
@@ -337,7 +225,7 @@
                         <div class="col col-md-12 col-12">
                             <div class="couple-item">
                                 <div class="couple-img-wrap wow fadeInRightSlow" data-wow-duration="1700ms">
-                                    <div class="couple-img" style="mask-image: url(assets/images/couple/mask-2.svg); -webkit-mask-image: url(assets/images/couple/mask-2.svg);">
+                                    <div class="couple-img" style="mask-image: url({{ asset('theme-front/casamiento/images/couple/mask-2.svg') }}); -webkit-mask-image: url({{ asset('theme-front/casamiento/images/couple/mask-2.svg') }});">
                                         <img src="{{ asset('theme-front/casamiento/images/couple/2.jpg') }}" alt="">
                                     </div>
                                     <div class="c-shape">
@@ -540,19 +428,101 @@
         </section>
         <!-- end wpo-portfolio-section -->
 
+
+            <!-- start wpo-event-section -->
+            <section class="wpo-event-section section-padding" id="event">
+                <div class="container">
+                    <div class="wpo-section-title">
+                        <span>Evento</span>
+                        <h2>Cuando y Donde</h2>
+                    </div>
+                    <div class="wpo-event-wrap">
+                        <div class="row">
+                            <div class="col col-lg-4 col-md-6 col-12">
+                                <div class="wpo-event-item wow fadeInUp" data-wow-duration="1000ms">
+                                    <div class="wpo-event-img">
+                                        <div class="wpo-event-img-inner">
+                                            <img src="{{ asset('theme-front/casamiento/images/event/1.jpg') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="wpo-event-text">
+                                        <div class="title">
+                                            <h2>Recepción</h2>
+                                        </div>
+                                        <ul>
+                                            <li>Monday, 12 Apr. 2022 <br>
+                                                1:00 PM – 2:30 PM</li>
+                                            <li>4517 Washington Ave. Manchester, Kentucky 39495</li>
+                                            <li>+1 234-567-8910</li>
+                                            <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See
+                                                    Location</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-4 col-md-6 col-12">
+                                <div class="wpo-event-item wow fadeInUp" data-wow-duration="1200ms">
+                                    <div class="wpo-event-img">
+                                        <div class="wpo-event-img-inner">
+                                            <img src="{{ asset('theme-front/casamiento/images/event/2.jpg') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="wpo-event-text">
+                                        <div class="title">
+                                            <h2>Ceremonia</h2>
+                                        </div>
+                                        <ul>
+                                            <li>Monday, 12 Apr. 2022 <br>
+                                                1:00 PM – 2:30 PM</li>
+                                            <li>4517 Washington Ave. Manchester, Kentucky 39495</li>
+                                            <li>+1 234-567-8910</li>
+                                            <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See
+                                                    Location</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-4 col-md-6 col-12">
+                                <div class="wpo-event-item wow fadeInUp" data-wow-duration="1400ms">
+                                    <div class="wpo-event-img">
+                                        <div class="wpo-event-img-inner">
+                                            <img src="{{ asset('theme-front/casamiento/images/event/3.jpg') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="wpo-event-text">
+                                        <div class="title">
+                                            <h2>Fiesta</h2>
+                                        </div>
+                                        <ul>
+                                            <li>Monday, 12 Apr. 2022 <br>
+                                                1:00 PM – 2:30 PM</li>
+                                            <li>4517 Washington Ave. Manchester, Kentucky 39495</li>
+                                            <li>+1 234-567-8910</li>
+                                            <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See
+                                                    Location</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!-- end container -->
+            </section>
+
         <!-- start of wpo-contact-section -->
-        <section class="wpo-contact-section section-padding">
+        <section class="wpo-contact-section section-padding" id="asistencia">
             <div class="container-fluid">
                 <div class="row justify-content-center">
                     <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
                         <div class="wpo-contact-section-wrapper">
                             <div class="wpo-section-title">
-                                <h2>Are You Attending?</h2>
+                                <h2>Confirmar asistencia?</h2>
                             </div>
                             <div class="wpo-contact-form-area">
                                 <form method="post" class="contact-validation-active" id="contact-form-main">
                                     <div>
-                                        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Nombre y Apellido">
                                     </div>
                                     <div>
                                         <input type="email" class="form-control" name="email" id="email" placeholder="Email">
@@ -560,16 +530,16 @@
                                     <div class="radio-buttons">
                                         <p>
                                             <input type="radio" id="attend" name="radio-group" checked="">
-                                            <label for="attend">Yes, I will be there</label>
+                                            <label for="attend">Si!, Ahí estaré</label>
                                         </p>
                                         <p>
                                             <input type="radio" id="not" name="radio-group">
-                                            <label for="not">Sorry, I can’t come</label>
+                                            <label for="not">Perdón, No podré asistir</label>
                                         </p>
                                     </div>
                                     <div>
                                         <select name="guest" class="form-control">
-                                            <option disabled="disabled" selected="">Number Of Guests</option>
+                                            <option disabled="disabled" selected="">Número de asistencia</option>
                                             <option>01</option>
                                             <option>02</option>
                                             <option>03</option>
@@ -578,9 +548,9 @@
                                         </select>
                                     </div>
                                     <div>
-                                        <input type="text" class="form-control" name="what" id="what" placeholder="What Will You Be Attending">
+                                        <input type="text" class="form-control" name="what" id="what" placeholder="Algún comentario?">
                                     </div>
-                                    <div>
+                                    {{-- <div>
                                         <select name="meal" class="form-control last">
                                             <option disabled="disabled" selected="">Meal Preferences</option>
                                             <option>Chicken Soup</option>
@@ -589,16 +559,16 @@
                                             <option>Mix Salad</option>
                                             <option>Beef Ribs </option>
                                         </select>
-                                    </div>
+                                    </div> --}}
                                     <div class="submit-area">
-                                        <button type="submit" class="theme-btn">RSVP</button>
+                                        <button type="submit" class="theme-btn">Enviar Asistencia</button>
                                         <div id="c-loader">
                                             <i class="ti-reload"></i>
                                         </div>
                                     </div>
                                     <div class="clearfix error-handling-messages">
-                                        <div id="success">Thank you, Message Send</div>
-                                        <div id="error"> Error occurred while sending email. Please try again later.
+                                        <div id="success">Muchas Gracias!, Asistencia Enviada</div>
+                                        <div id="error"> Se produjo un error al enviar la asistencia. Por favor, inténtelo de nuevo más tarde.
                                         </div>
                                     </div>
                                 </form>
@@ -635,90 +605,11 @@
         </section>
         <!-- end of wpo-contact-section -->
 
-        <!-- start wpo-event-section -->
-        <section class="wpo-event-section section-padding" id="event">
-            <div class="container">
-                <div class="wpo-section-title">
-                    <span>Our Wedding</span>
-                    <h2>When & Where</h2>
-                </div>
-                <div class="wpo-event-wrap">
-                    <div class="row">
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-event-item wow fadeInUp" data-wow-duration="1000ms">
-                                <div class="wpo-event-img">
-                                    <div class="wpo-event-img-inner">
-                                        <img src="assets/images/event/1.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="wpo-event-text">
-                                    <div class="title">
-                                        <h2>The Reception</h2>
-                                    </div>
-                                    <ul>
-                                        <li>Monday, 12 Apr. 2022 <br>
-                                            1:00 PM – 2:30 PM</li>
-                                        <li>4517 Washington Ave. Manchester, Kentucky 39495</li>
-                                        <li>+1 234-567-8910</li>
-                                        <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See
-                                                Location</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-event-item wow fadeInUp" data-wow-duration="1200ms">
-                                <div class="wpo-event-img">
-                                    <div class="wpo-event-img-inner">
-                                        <img src="{{ asset('theme-front/casamiento/images/event/2.jpg') }}" alt="">
-                                    </div>
-                                </div>
-                                <div class="wpo-event-text">
-                                    <div class="title">
-                                        <h2>The Ceremony</h2>
-                                    </div>
-                                    <ul>
-                                        <li>Monday, 12 Apr. 2022 <br>
-                                            1:00 PM – 2:30 PM</li>
-                                        <li>4517 Washington Ave. Manchester, Kentucky 39495</li>
-                                        <li>+1 234-567-8910</li>
-                                        <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See
-                                                Location</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-event-item wow fadeInUp" data-wow-duration="1400ms">
-                                <div class="wpo-event-img">
-                                    <div class="wpo-event-img-inner">
-                                        <img src="{{ asset('theme-front/casamiento/images/event/3.jpg') }}" alt="">
-                                    </div>
-                                </div>
-                                <div class="wpo-event-text">
-                                    <div class="title">
-                                        <h2>The Party</h2>
-                                    </div>
-                                    <ul>
-                                        <li>Monday, 12 Apr. 2022 <br>
-                                            1:00 PM – 2:30 PM</li>
-                                        <li>4517 Washington Ave. Manchester, Kentucky 39495</li>
-                                        <li>+1 234-567-8910</li>
-                                        <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See
-                                                Location</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-            </div> <!-- end container -->
-        </section>
         <!-- end wpo-event-section -->
 
         <!-- start wpo-blog-section -->
-        <section class="wpo-blog-section section-padding">
+        {{-- <section class="wpo-blog-section section-padding">
             <div class="container">
                 <div class="row">
                     <div class="wpo-section-title">
@@ -782,7 +673,7 @@
             <div class="b-shape">
                 <img src="{{ asset('theme-front/casamiento/images/blog/shape-1.svg') }}" alt="">
             </div>
-        </section>
+        </section> --}}
 
 
 
