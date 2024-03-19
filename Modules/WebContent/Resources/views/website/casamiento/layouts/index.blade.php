@@ -137,7 +137,9 @@
                         <div class="row align-items-center">
                             <div class="col-xl-6 col-lg-6 col-12">
                                 <div class="wpo-static-hero-inner">
-                                    <div class="shape-1 wow fadeInUp" data-wow-duration="1400ms"><img src="{{ asset('theme-front/casamiento/images/slider/shape1.svg') }}" alt=""></div>
+                                    <div class="shape-1 wow fadeInUp" data-wow-duration="1400ms">
+                                        <img src="{{ asset('theme-front/casamiento/images/slider/shape1.svg') }}" alt="">
+                                    </div>
                                     <div class="slide-title wow fadeInUp" data-wow-duration="1500ms">
                                         <h2>Belén & José Maria</h2>
                                     </div>
