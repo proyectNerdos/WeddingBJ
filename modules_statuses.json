@@ -1,0 +1,12 @@
+{
+    "Tickets": true,
+    "Receipts": true,
+    "Expenses": true,
+    "Setting": true,
+    "Translations": true,
+    "WebContent": true,
+    "CashFlow": true,
+    "Productos": true,
+    "Service": true,
+    "ServiceModule": true
+}
