@@ -162,7 +162,7 @@
             <div class="static-hero-right">
                 <div class="static-hero-img scene" id="scene">
                     <div class="static-hero-img-inner">
-                        <img src="{{ asset('theme-front/casamiento/images/slider/hero-1.jpg') }}" alt="">
+                        <img src="{{ asset('theme-front/casamiento/images/slider/hero-1.png') }}" alt="">
                     </div>
                     {{-- <div class="static-hero-shape-1 wow fadeInDown" data-wow-delay=".5s">
                         <span class="layer" data-depth="0.25">
@@ -203,14 +203,14 @@
                             <div class="couple-item">
                                 <div class="couple-img-wrap wow fadeInLeftSlow" data-wow-duration="1700ms">
                                     <div class="couple-img" style="mask-image: url({{ asset('theme-front/casamiento/images/couple/mask-1.svg') }}); -webkit-mask-image: url({{ asset('theme-front/casamiento/images/couple/mask-1.svg') }});">
-                                        <img src="{{ asset('theme-front/casamiento/images/couple/1.jpg') }}" alt="">
+                                        <img src="{{ asset('theme-front/casamiento/images/couple/1.png') }}" alt="">
                                     </div>
                                     <div class="c-shape">
                                         <img src="{{ asset('theme-front/casamiento/images/couple/image-bg.svg') }}" alt="">
                                     </div>
                                 </div>
                                 <div class="couple-text wow fadeInRightSlow" data-wow-duration="1700ms">
-                                    <h3>Amelia Lily</h3>
+                                    <h3 style="font-size: 45px">Maria Belén Ruiu</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna orci auctor vitae
                                         nisl. Erat fringilla pellentesque amet tempus. Commodo mi vitae, sagittis
                                         blandit.</p>
@@ -235,7 +235,7 @@
                                     </div>
                                 </div>
                                 <div class="couple-text wow fadeInLeftSlow" data-wow-duration="1700ms">
-                                    <h3>James Cole</h3>
+                                    <h3 style="font-size: 45px">José Maria Soraire</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna orci auctor vitae
                                         nisl. Erat fringilla pellentesque amet tempus. Commodo mi vitae, sagittis
                                         blandit.</p>
@@ -270,7 +270,7 @@
         <!-- end couple-section -->
 
         <!-- start wpo-story-section -->
-        <section class="wpo-story-section section-padding" id="story">
+        {{-- <section class="wpo-story-section section-padding" id="story">
             <div class="container">
                 <div class="wpo-section-title">
                     <span>Our Story</span>
@@ -353,7 +353,7 @@
             <div class="flower-shape-4">
                 <img src="{{ asset('theme-front/casamiento/images/story/flower-shape4.svg') }}" alt="">
             </div>
-        </section>
+        </section> --}}
         <!-- end story-section -->
 
         <!-- start wpo-portfolio-section -->
@@ -365,8 +365,8 @@
                         <div class="portfolio-grids gallery-container clearfix portfolio-slide owl-carousel">
                             <div class="grid">
                                 <div class="img-holder">
-                                    <a href="assets/images/portfolio/1.jpg" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="{{ asset('theme-front/casamiento/images/portfolio/1.jpg') }}" alt="" class="img img-responsive">
+                                    <a href="{{ asset('theme-front/casamiento/images/portfolio/1.png') }}" class="fancybox" data-fancybox-group="gall-1">
+                                        <img src="{{ asset('theme-front/casamiento/images/portfolio/1.png') }}" alt="" class="img img-responsive">
                                         <div class="hover-content">
                                             <i class="ti-plus"></i>
                                         </div>
@@ -375,8 +375,8 @@
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <a href="assets/images/portfolio/2.jpg" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="{{ asset('theme-front/casamiento/images/portfolio/2.jpg') }}" alt="" class="img img-responsive">
+                                    <a href="{{ asset('theme-front/casamiento/images/portfolio/2.png') }}" class="fancybox" data-fancybox-group="gall-1">
+                                        <img src="{{ asset('theme-front/casamiento/images/portfolio/2.png') }}" alt="" class="img img-responsive">
                                         <div class="hover-content">
                                             <i class="ti-plus"></i>
                                         </div>
@@ -385,8 +385,8 @@
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <a href="assets/images/portfolio/3.jpg" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="{{ asset('theme-front/casamiento/images/portfolio/3.jpg') }}" alt="" class="img img-responsive">
+                                    <a href="{{ asset('theme-front/casamiento/images/portfolio/3.png') }}" class="fancybox" data-fancybox-group="gall-1">
+                                        <img src="{{ asset('theme-front/casamiento/images/portfolio/3.png') }}" alt="" class="img img-responsive">
                                         <div class="hover-content">
                                             <i class="ti-plus"></i>
                                         </div>
@@ -395,8 +395,8 @@
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <a href="assets/images/portfolio/4.jpg" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="{{ asset('theme-front/casamiento/images/portfolio/4.jpg') }}" alt="" class="img img-responsive">
+                                    <a href="{{ asset('theme-front/casamiento/images/portfolio/4.png') }}" class="fancybox" data-fancybox-group="gall-1">
+                                        <img src="{{ asset('theme-front/casamiento/images/portfolio/4.png') }}" alt="" class="img img-responsive">
                                         <div class="hover-content">
                                             <i class="ti-plus"></i>
                                         </div>
@@ -405,8 +405,8 @@
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <a href="assets/images/portfolio/5.jpg" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="{{ asset('theme-front/casamiento/images/portfolio/5.jpg') }}" alt="" class="img img-responsive">
+                                    <a href="{{ asset('theme-front/casamiento/images/portfolio/5.png') }}" class="fancybox" data-fancybox-group="gall-1">
+                                        <img src="{{ asset('theme-front/casamiento/images/portfolio/5.png') }}" alt="" class="img img-responsive">
                                         <div class="hover-content">
                                             <i class="ti-plus"></i>
                                         </div>
@@ -415,8 +415,8 @@
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <a href="assets/images/portfolio/6.jpg" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="{{ asset('theme-front/casamiento/images/portfolio/6.jpg') }}" alt="" class="img img-responsive">
+                                    <a href="{{ asset('theme-front/casamiento/images/portfolio/6.png') }}" class="fancybox" data-fancybox-group="gall-1">
+                                        <img src="{{ asset('theme-front/casamiento/images/portfolio/6.png') }}" alt="" class="img img-responsive">
                                         <div class="hover-content">
                                             <i class="ti-plus"></i>
                                         </div>
