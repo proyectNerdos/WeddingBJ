@@ -84,9 +84,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="mini-cart">
-                                        {{-- <button class="cart-toggle-btn"> <i class="fi flaticon-shopping-cart"></i> --}}
-                                            {{-- <span class="cart-count">2</span></button> --}}
+                                    {{-- <div class="mini-cart">
+                                        <button class="cart-toggle-btn"> <i class="fi flaticon-shopping-cart"></i>
+                                            <span class="cart-count">2</span></button>
                                         <div class="mini-cart-content">
                                             <button class="mini-cart-close"><i class="ti-close"></i></button>
                                             <div class="mini-cart-items">
@@ -120,7 +120,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -141,16 +141,37 @@
                                         <img src="{{ asset('theme-front/casamiento/images/slider/shape1.svg') }}" alt="">
                                     </div>
                                     <div class="slide-title wow fadeInUp" data-wow-duration="1500ms">
-                                        <h2>Belén & José Maria</h2>
+                                        <h2 style="font-size: 75px">Belén & José Maria</h2>
                                     </div>
                                     <div data-swiper-parallax="400" class="slide-text wow fadeInUp" data-wow-duration="1600ms">
                                         <p>¡Nos Casamos!</p>
                                     </div>
+
+
+
+
                                     <div class="wpo-wedding-date wow fadeInUp" data-wow-duration="1700ms">
+                                        <div class="clock-grids">
+                                            <ul class="counter">
+                                                <li><div><span id="d"></span><span class="days">Días</span></div></li>
+                                                <li><div><span id="h"></span><span class="hours">Hrs</span></div></li>
+                                                <li><div><span id="m"></span><span class="minutes">Min</span></div></li>
+                                                <li><div><span id="s"></span><span class="seconds">Seg</span></div></li>
+                                                </ul>
+                                        </div>
+                                    </div>
+
+
+
+                                    {{-- <div class="wpo-wedding-date wow fadeInUp" data-wow-duration="1700ms">
                                         <div class="clock-grids">
                                             <div id="clock"></div>
                                         </div>
-                                    </div>
+                                    </div> --}}
+
+
+
+
                                     <div class="shape-2 wow fadeInUp" data-wow-duration="1800ms"><img src="{{ asset('theme-front/casamiento/images/slider/shape2.svg') }}" alt=""></div>
                                     <div class="clearfix"></div>
                                 </div>
@@ -210,17 +231,8 @@
                                     </div>
                                 </div>
                                 <div class="couple-text wow fadeInRightSlow" data-wow-duration="1700ms">
-                                    <h3 style="font-size: 45px">Maria Belén Ruiu</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna orci auctor vitae
-                                        nisl. Erat fringilla pellentesque amet tempus. Commodo mi vitae, sagittis
-                                        blandit.</p>
-                                    <div class="social">
-                                        <ul>
-                                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                            <li><a href="#"><i class="ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
+                                    <h3 style="font-size: 55px">Maria Belén Ruiu</h3>
+
                                 </div>
                             </div>
                         </div>
@@ -235,17 +247,9 @@
                                     </div>
                                 </div>
                                 <div class="couple-text wow fadeInLeftSlow" data-wow-duration="1700ms">
-                                    <h3 style="font-size: 45px">José Maria Soraire</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna orci auctor vitae
-                                        nisl. Erat fringilla pellentesque amet tempus. Commodo mi vitae, sagittis
-                                        blandit.</p>
-                                    <div class="social">
-                                        <ul>
-                                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                            <li><a href="#"><i class="ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
+                                    <h3 style="font-size: 55px">José Maria Soraire</h3>
+
+
                                 </div>
                             </div>
                         </div>
@@ -436,7 +440,7 @@
                 <div class="container">
                     <div class="wpo-section-title">
                         <span>Evento</span>
-                        <h2>Cuando y Donde</h2>
+                        <h2 style="font-size: 50px">Cuando y Donde</h2>
                     </div>
                     <div class="wpo-event-wrap">
                         <div class="row">

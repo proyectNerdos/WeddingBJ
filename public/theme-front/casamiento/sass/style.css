@@ -2912,6 +2912,38 @@ a.ui-button:active, .ui-button:active,
   z-index: 99;
 }
 
+
+/*-- CONTADOR CASAMIENTO --*/
+
+ul.counter {
+
+    width: 60%;
+    padding-top: 50px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+  }
+  ul.counter li {
+    width: 25%;
+    float: left;
+  }
+  ul.counter li span:first-child {
+    font-family: 'Great Vibes';
+     font-size: 40px;
+     padding-bottom: 10px;
+     border-bottom: #ddd 1px solid;
+     display: block;
+     margin: 0 30px;
+  }
+  ul.counter li span:last-child{
+     font-size: 13px;
+     padding-top: 10px;
+     padding-bottom: 40px;
+     display: block;
+     text-transform: uppercase;
+  }
+
+
 .header-search-area .close-form button:focus {
   border: 0;
   outline: 0;

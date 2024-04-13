@@ -7,8 +7,7 @@
 <script src="{{ asset('theme-front/casamiento/js/tilt.jquery.min.js') }}"></script>
 <!-- Custom script for this template -->
 <script src="{{ asset('theme-front/casamiento/js/script.js') }}"></script>
-
-
+<script src="{{ asset('theme-front/casamiento/js/counter.js') }}"></script>
 
 @yield('scripts')
 
