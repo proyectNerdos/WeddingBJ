@@ -444,20 +444,18 @@
                                 <div class="wpo-event-item wow fadeInUp" data-wow-duration="1000ms">
                                     <div class="wpo-event-img">
                                         <div class="wpo-event-img-inner">
-                                            <img src="{{ asset('theme-front/casamiento/images/event/1.jpg') }}" alt="">
+                                            <img src="{{ asset('theme-front/casamiento/images/event/1.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="wpo-event-text">
                                         <div class="title">
-                                            <h2>Recepción</h2>
+                                            <h2>Ceremonia</h2>
                                         </div>
                                         <ul>
-                                            <li>Monday, 12 Apr. 2022 <br>
-                                                1:00 PM – 2:30 PM</li>
-                                            <li>4517 Washington Ave. Manchester, Kentucky 39495</li>
-                                            <li>+1 234-567-8910</li>
-                                            <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See
-                                                    Location</a></li>
+                                            <li>Sabado, 01 Jun. 2024 <br>
+                                                16:30 – 17:00 </li>
+                                            <li>Capilla Santa Lucía, Ruta 308, Km 5, Marapa, Alberdi</li>
+                                            <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.4160915825637!2d-65.64525549999999!3d-27.6116271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423e92c062c1beb%3A0xf4152e58a32c58d3!2sCapilla%20Santa%20Luc%C3%ADa!5e0!3m2!1ses-419!2sar!4v1713025298043!5m2!1ses-419!2sar">Ubicación</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -466,20 +464,18 @@
                                 <div class="wpo-event-item wow fadeInUp" data-wow-duration="1200ms">
                                     <div class="wpo-event-img">
                                         <div class="wpo-event-img-inner">
-                                            <img src="{{ asset('theme-front/casamiento/images/event/2.jpg') }}" alt="">
+                                            <img src="{{ asset('theme-front/casamiento/images/event/2.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="wpo-event-text">
                                         <div class="title">
-                                            <h2>Ceremonia</h2>
+                                            <h2>Recepción</h2>
                                         </div>
                                         <ul>
-                                            <li>Monday, 12 Apr. 2022 <br>
-                                                1:00 PM – 2:30 PM</li>
-                                            <li>4517 Washington Ave. Manchester, Kentucky 39495</li>
-                                            <li>+1 234-567-8910</li>
-                                            <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See
-                                                    Location</a></li>
+                                            <li>Sabado, 01 Jun. 2024 <br>
+                                                18:30 – 21:00</li>
+                                            <li>Salón La Serviliana, ,Ruta 308, Km 5, Marapa, Alberdi </li>
+                                            <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.4380992168158!2d-65.6446677!3d-27.610945200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423e97b313426ff%3A0x260819936a6f768!2sLa%20Serviliana%20Multiespacio!5e0!3m2!1ses-419!2sar!4v1713025385914!5m2!1ses-419!2sar">Ubicación</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -488,7 +484,7 @@
                                 <div class="wpo-event-item wow fadeInUp" data-wow-duration="1400ms">
                                     <div class="wpo-event-img">
                                         <div class="wpo-event-img-inner">
-                                            <img src="{{ asset('theme-front/casamiento/images/event/3.jpg') }}" alt="">
+                                            <img src="{{ asset('theme-front/casamiento/images/event/3.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="wpo-event-text">
@@ -496,13 +492,11 @@
                                             <h2>Fiesta</h2>
                                         </div>
                                         <ul>
-                                            <li>Monday, 12 Apr. 2022 <br>
-                                                1:00 PM – 2:30 PM</li>
-                                            <li>4517 Washington Ave. Manchester, Kentucky 39495</li>
-                                            <li>+1 234-567-8910</li>
-                                            <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See
-                                                    Location</a></li>
-                                        </ul>
+                                            <li>Sabado, 01 Jun. 2024 <br>
+                                                21:00 - 3:00</li>
+                                                <li>Salón La Serviliana, ,Ruta 308, Km 5, Marapa, Alberdi </li>
+                                                <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.4380992168158!2d-65.6446677!3d-27.610945200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423e97b313426ff%3A0x260819936a6f768!2sLa%20Serviliana%20Multiespacio!5e0!3m2!1ses-419!2sar!4v1713025385914!5m2!1ses-419!2sar">Ubicación</a></li>
+                                            </ul>
                                     </div>
                                 </div>
                             </div>
@@ -511,6 +505,11 @@
 
                 </div> <!-- end container -->
             </section>
+
+        <section class="spotify">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2LWCRYGXQ7OMNPfo3a5YGG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </section>
+
 
         <!-- start of wpo-contact-section -->
         <section class="wpo-contact-section section-padding" id="asistencia">
