@@ -84,43 +84,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <div class="mini-cart">
-                                        <button class="cart-toggle-btn"> <i class="fi flaticon-shopping-cart"></i>
-                                            <span class="cart-count">2</span></button>
-                                        <div class="mini-cart-content">
-                                            <button class="mini-cart-close"><i class="ti-close"></i></button>
-                                            <div class="mini-cart-items">
-                                                <div class="mini-cart-item clearfix">
-                                                    <div class="mini-cart-item-image">
-                                                        <a href="{{ url('shop') }}"><img src="{{ asset('theme-front/casamiento/images/shop/mini-cart/img-1.jpg') }}" alt=""></a>
-                                                    </div>
-                                                    <div class="mini-cart-item-des">
-                                                        <a href="shop.html">Wedding Gown</a>
-                                                        <span class="mini-cart-item-price">$20.15 x 1</span>
-                                                        <span class="mini-cart-item-quantity"><a href="#"><i class="ti-close"></i></a></span>
-                                                    </div>
-                                                </div>
-                                                <div class="mini-cart-item clearfix">
-                                                    <div class="mini-cart-item-image">
-                                                        <a href="shop.html"><img src="{{ asset('theme-front/casamiento/images/shop/mini-cart/img-2.jpg') }}" alt=""></a>
-                                                    </div>
-                                                    <div class="mini-cart-item-des">
-                                                        <a href="shop.html">Bridal Flower</a>
-                                                        <span class="mini-cart-item-price">$13.25 x 2</span>
-                                                        <span class="mini-cart-item-quantity"><a href="#"><i class="ti-close"></i></a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="mini-cart-action clearfix">
-                                                <span class="mini-checkout-price">Subtotal:
-                                                    <span>$215.14</span></span>
-                                                <div class="mini-btn">
-                                                    <a href="checkout.html" class="view-cart-btn s1">Checkout</a>
-                                                    <a href="cart.html" class="view-cart-btn">View Cart</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -163,12 +126,6 @@
 
 
 
-                                    {{-- <div class="wpo-wedding-date wow fadeInUp" data-wow-duration="1700ms">
-                                        <div class="clock-grids">
-                                            <div id="clock"></div>
-                                        </div>
-                                    </div> --}}
-
 
 
 
@@ -185,21 +142,7 @@
                     <div class="static-hero-img-inner">
                         <img src="{{ asset('theme-front/casamiento/images/slider/hero-1.png') }}" alt="">
                     </div>
-                    {{-- <div class="static-hero-shape-1 wow fadeInDown" data-wow-delay=".5s">
-                        <span class="layer" data-depth="0.25">
-                            <img src="{{ asset('theme-front/casamiento/images/slider/shape3.svg') }}" alt="">
-                        </span>
-                    </div> --}}
-                    {{-- <div class="static-hero-shape-2 wow fadeInDown" data-wow-delay=".5s">
-                        <span class="layer" data-depth="0.45">
-                            <img src="{{ asset('theme-front/casamiento/images/slider/shape4.svg') }}" alt="">
-                        </span>
-                    </div> --}}
-                    {{-- <div class="static-hero-shape-3">
-                        <span class="layer" data-depth="0.65">
-                            <img src="{{ asset('theme-front/casamiento/images/slider/shape5.svg') }}" alt="">
-                        </span>
-                    </div> --}}
+
                     <div class="static-hero-shape-4 wow fadeInUp" data-wow-delay=".5s">
                             <img src="{{ asset('theme-front/casamiento/images/slider/shape6.svg') }}" alt="">
                     </div>
@@ -555,16 +498,7 @@
                                     <div>
                                         <input type="text" class="form-control" name="what" id="what" placeholder="Algún comentario?">
                                     </div>
-                                    {{-- <div>
-                                        <select name="meal" class="form-control last">
-                                            <option disabled="disabled" selected="">Meal Preferences</option>
-                                            <option>Chicken Soup</option>
-                                            <option>Motton Kabab</option>
-                                            <option>Chicken BBQ</option>
-                                            <option>Mix Salad</option>
-                                            <option>Beef Ribs </option>
-                                        </select>
-                                    </div> --}}
+
                                     <div class="submit-area">
                                         <button type="submit" class="theme-btn">Enviar Asistencia</button>
                                         <div id="c-loader">
@@ -609,79 +543,6 @@
             </div>
         </section>
         <!-- end of wpo-contact-section -->
-
-
-        <!-- end wpo-event-section -->
-
-        <!-- start wpo-blog-section -->
-        {{-- <section class="wpo-blog-section section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="wpo-section-title">
-                        <span>Our Blog</span>
-                        <h2>Our Latest Wedding News</h2>
-                    </div>
-                </div>
-                <div class="wpo-blog-items">
-                    <div class="row">
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-blog-item wow fadeInUp" data-wow-duration="1000ms">
-                                <div class="wpo-blog-img">
-                                    <img src="{{ asset('theme-front/casamiento/images/blog/img-1.jpg') }}" alt="">
-                                </div>
-                                <div class="wpo-blog-content">
-                                    <ul>
-                                        <li>By <a href="blog-single.html">Robertson Doe</a></li>
-                                        <li>25 Sep 2023</li>
-                                    </ul>
-                                    <h2><a href="blog.html">Top 10 wedding bouquet arranging idea</a>
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-blog-item wow fadeInUp" data-wow-duration="1200ms">
-                                <div class="wpo-blog-img">
-                                    <img src="{{ asset('theme-front/casamiento/images/blog/img-2.jpg') }}" alt="">
-                                </div>
-                                <div class="wpo-blog-content">
-                                    <ul>
-                                        <li>By <a href="blog-single.html">David Luis</a></li>
-                                        <li>23 Sep 2023</li>
-                                    </ul>
-                                    <h2><a href="blog.html">You must need a great photographer.</a>
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-blog-item wow fadeInUp" data-wow-duration="1400ms">
-                                <div class="wpo-blog-img">
-                                    <img src="{{ asset('theme-front/casamiento/images/blog/img-3.jpg') }}" alt="">
-                                </div>
-                                <div class="wpo-blog-content">
-                                    <ul>
-                                        <li>By <a href="blog-single.html">Aliana de</a></li>
-                                        <li>21 Sep 2023</li>
-                                    </ul>
-                                    <h2><a href="blog.html">Make sure your wedding gown is the best one.</a>
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-shape-2">
-                        <img src="{{ asset('theme-front/casamiento/images/blog/shape-2.svg') }}" alt="">
-                    </div>
-                </div>
-            </div> <!-- end container -->
-            <div class="b-shape">
-                <img src="{{ asset('theme-front/casamiento/images/blog/shape-1.svg') }}" alt="">
-            </div>
-        </section> --}}
-
-
-
 
     @section('scripts')
          @include('webcontent::website.casamiento.layouts.scripts')
