@@ -2912,6 +2912,16 @@ a.ui-button:active, .ui-button:active,
   z-index: 99;
 }
 
+/* BUTTON SPOTIFY */
+
+section.spotify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
 
 /*-- CONTADOR CASAMIENTO --*/
 

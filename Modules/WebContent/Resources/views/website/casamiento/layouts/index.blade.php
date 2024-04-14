@@ -183,7 +183,7 @@
                             <div class="couple-item">
                                 <div class="couple-img-wrap wow fadeInRightSlow" data-wow-duration="1700ms">
                                     <div class="couple-img" style="mask-image: url({{ asset('theme-front/casamiento/images/couple/mask-2.svg') }}); -webkit-mask-image: url({{ asset('theme-front/casamiento/images/couple/mask-2.svg') }});">
-                                        <img src="{{ asset('theme-front/casamiento/images/couple/2.jpg') }}" alt="">
+                                        <img src="{{ asset('theme-front/casamiento/images/couple/2.png') }}" alt="">
                                     </div>
                                     <div class="c-shape">
                                         <img src="{{ asset('theme-front/casamiento/images/couple/image-bg.svg') }}" alt="">
@@ -449,13 +449,18 @@
                             </div>
                         </div>
                     </div>
+                    <section class="spotify wow fadeInRightSlow">
+                        <div class="button_spotify">
+                            <a target="_blank" class="popup gmaps" href="https://open.spotify.com/playlist/2LWCRYGXQ7OMNPfo3a5YGG?si=Eklamt4STQuaaAdQesfX6Q&pt=0baf40013519eabe533693a301d4d799&pi=u-2CCBzP__SuSC">
+                                <img src="{{ asset('/theme-front/casamiento/images/button_spotify_wedding.png') }}" alt="">
+                            </a>
+                        </div>
+                    </section>
 
                 </div> <!-- end container -->
             </section>
 
-        <section class="spotify">
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2LWCRYGXQ7OMNPfo3a5YGG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </section>
+
 
 
         <!-- start of wpo-contact-section -->
@@ -496,7 +501,7 @@
                                         </select>
                                     </div>
                                     <div>
-                                        <input type="text" class="form-control" name="what" id="what" placeholder="Algún comentario?">
+                                        <input type="text" class="form-control" name="what" id="what" placeholder="Dejanos un mensaje!">
                                     </div>
 
                                     <div class="submit-area">
