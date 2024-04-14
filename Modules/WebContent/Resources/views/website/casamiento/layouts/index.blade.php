@@ -448,15 +448,19 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <section class="spotify wow fadeInRightSlow">
-                        <div class="button_spotify">
-                            <a target="_blank" class="popup gmaps" href="https://open.spotify.com/playlist/2LWCRYGXQ7OMNPfo3a5YGG?si=Eklamt4STQuaaAdQesfX6Q&pt=0baf40013519eabe533693a301d4d799&pi=u-2CCBzP__SuSC">
-                                <img src="{{ asset('/theme-front/casamiento/images/button_spotify_wedding.png') }}" alt="">
-                            </a>
-                        </div>
-                    </section>
+                                    {{-- Spotify --}}
 
+                        <div class="wpo-event-section section-padding spotify wow fadeInRightSlow" id="spotify">
+                            <div class="button_spotify">
+                                <div class="wpo-section-title">
+                                    <span>Agrega tu musica para la fiesta! <br><h2>Playlist</h2></span>
+                                </div>
+                                <a target="_blank" class="popup gmaps" href="https://open.spotify.com/playlist/2LWCRYGXQ7OMNPfo3a5YGG?si=Eklamt4STQuaaAdQesfX6Q&pt=0baf40013519eabe533693a301d4d799&pi=u-2CCBzP__SuSC">
+                                    <img src="{{ asset('/theme-front/casamiento/images/button_spotify_wedding.png') }}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div> <!-- end container -->
             </section>
 
@@ -469,13 +473,10 @@
         <div class="wpo-section-title">
             {{-- <span>Regalo</span> --}}
             <h2 style="font-size: 50px">Regalo</h2>
-            <p>Dejamos un número de cuenta para ayudarnos en nuestro viaje de Luna de Miel</p>
+            <p>Dejamos un número de cuenta para ayudarnos en nuestro viaje de Luna de Miel </p>
         </div>
         <div class="wpo-event-wrap">
             <div class="row">
-
-
-
                 <div class="col-12">
                     <div class="wpo-event-item wow fadeInUp" data-wow-duration="1200ms">
                         <div class="wpo-event-img">
@@ -489,8 +490,9 @@
                             </div>
                             <ul>
                                 <li>CBU: 123456789987654312 <br>
-                                    Alias:  <br>Nombre de la cuenta: Belen Ruiu</li>
+                                    Alias: joseybelen.nx <br>Nombre de la cuenta: Belen Ruiu</li>
                             </ul>
+                            <span>No habrá urna en el salón</span>
                         </div>
                     </div>
                 </div>
@@ -498,13 +500,8 @@
 
             </div>
         </div>
-        <section class="spotify wow fadeInRightSlow">
-            <div class="button_spotify">
-                <a target="_blank" class="popup gmaps" href="https://open.spotify.com/playlist/2LWCRYGXQ7OMNPfo3a5YGG?si=Eklamt4STQuaaAdQesfX6Q&pt=0baf40013519eabe533693a301d4d799&pi=u-2CCBzP__SuSC">
-                    <img src="{{ asset('/theme-front/casamiento/images/button_spotify_wedding.png') }}" alt="">
-                </a>
-            </div>
-        </section>
+
+
 
     </div> <!-- end container -->
 </section>
