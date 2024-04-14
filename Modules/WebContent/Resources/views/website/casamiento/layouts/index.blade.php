@@ -474,26 +474,7 @@
         <div class="wpo-event-wrap">
             <div class="row">
 
-                {{-- <div class="col col-lg-4 col-md-6 col-12">
-                    <div class="wpo-event-item wow fadeInUp" data-wow-duration="1000ms">
-                        <div class="wpo-event-img">
-                            <div class="wpo-event-img-inner">
-                                <img src="{{ asset('theme-front/casamiento/images/event/1.png') }}" alt="">
-                            </div>
-                        </div>
-                        <div class="wpo-event-text">
-                            <div class="title">
-                                <h2>Ceremonia</h2>
-                            </div>
-                            <ul>
-                                <li>Sabado, 01 Jun. 2024 <br>
-                                    16:30 – 17:00 </li>
-                                <li>Capilla Santa Lucía, Ruta 308, Km 5, Marapa, Alberdi</li>
-                                <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.4160915825637!2d-65.64525549999999!3d-27.6116271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423e92c062c1beb%3A0xf4152e58a32c58d3!2sCapilla%20Santa%20Luc%C3%ADa!5e0!3m2!1ses-419!2sar!4v1713025298043!5m2!1ses-419!2sar">Ubicación</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> --}}
+
 
                 <div class="col-12">
                     <div class="wpo-event-item wow fadeInUp" data-wow-duration="1200ms">
@@ -504,37 +485,17 @@
                         </div>
                         <div class="wpo-event-text">
                             <div class="title">
-                                <h2>Datos</h2>
+                                <h2>Información</h2>
                             </div>
                             <ul>
                                 <li>CBU: 123456789987654312 <br>
-                                    Alias: </li>
-                                <li> Maria Belen Ruiu </li>
+                                    Alias:  <br>Nombre de la cuenta: Belen Ruiu</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                {{-- <div class="col col-lg-4 col-md-6 col-12">
-                    <div class="wpo-event-item wow fadeInUp" data-wow-duration="1400ms">
-                        <div class="wpo-event-img">
-                            <div class="wpo-event-img-inner">
-                                <img src="{{ asset('theme-front/casamiento/images/event/3.png') }}" alt="">
-                            </div>
-                        </div>
-                        <div class="wpo-event-text">
-                            <div class="title">
-                                <h2>Fiesta</h2>
-                            </div>
-                            <ul>
-                                <li>Sabado, 01 Jun. 2024 <br>
-                                    21:00 - 3:00</li>
-                                    <li>Salón La Serviliana, ,Ruta 308, Km 5, Marapa, Alberdi </li>
-                                    <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.4380992168158!2d-65.6446677!3d-27.610945200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9423e97b313426ff%3A0x260819936a6f768!2sLa%20Serviliana%20Multiespacio!5e0!3m2!1ses-419!2sar!4v1713025385914!5m2!1ses-419!2sar">Ubicación</a></li>
-                                </ul>
-                        </div>
-                    </div>
-                </div> --}}
+
             </div>
         </div>
         <section class="spotify wow fadeInRightSlow">
