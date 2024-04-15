@@ -8,6 +8,5 @@ CREATE TABLE Invitados (
     email VARCHAR(255) NOT NULL,
     attendance BOOLEAN NOT NULL,
     guests INT NOT NULL,
-    message TEXT,
     PRIMARY KEY (id)
 );
