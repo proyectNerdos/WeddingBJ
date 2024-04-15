@@ -6,7 +6,7 @@ CREATE TABLE Invitados (
     id INT AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL,
-    attendance BOOLEAN NOT NULL,
+    attendance VARCHAR(255) NOT NULL,
     guests INT NOT NULL,
     message TEXT,
     created_at TIMESTAMP NULL DEFAULT NULL,
