@@ -50,18 +50,19 @@ class ContactFormNotification extends Notification
         $app_name = config('global.app_name');
 
 
-        // $mailMessage
-        //     ->subject('Nuevo contacto del sitio web de '.$app_name)
-        //     ->line("Se ha recibido un mensaje de contacto del sitio web de " . $app_name . ".<br><br>")
-        //     ->line('Nombre: ' .   $this->data['name'] . '<br>')
-        //     ->line('Teléfono: ' . $this->data['phone'] . '<br>')
-        //     ->line('Email: ' . $this->data['email'] . '<br>')
-        //     ->line('Tema: ' .     $this->data['subject'] . '<br>')
-        //     ->line('Contenido: ' .     $this->data['message'] . '<br>');
-
-            return (new MailMessage)
+        $mailMessage
             ->subject('Nuevo contacto del sitio web de '.$app_name)
-            ->view('webcontent::website.javiersanchez.notifications.contact', ['data' => $this->data ,'app_name' => $app_name]);
+            ->line("Se ha recibido un mensaje de contacto del sitio web de " . $app_name )
+            ->line('Nombre: ' .   $this->data['name'])
+            ->line('Email: ' . $this->data['email'])
+            ->line('Asistencia: ' . $this->data['asistencia'])
+            ->line('Numero de asistencia: ' . $this->data['numero_de_asistencia']);
+
+            return $mailMessage;
+
+            // return (new MailMessage)
+            // ->subject('Nuevo contacto del sitio web de '.$app_name)
+            // ->view('webcontent::website.javiersanchez.notifications.contact', ['data' => $this->data ,'app_name' => $app_name]);
 
         return $mailMessage;
     }

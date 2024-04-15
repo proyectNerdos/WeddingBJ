@@ -9,5 +9,7 @@ CREATE TABLE Invitados (
     attendance BOOLEAN NOT NULL,
     guests INT NOT NULL,
     message TEXT,
+    created_at TIMESTAMP NULL DEFAULT NULL,
+    updated_at TIMESTAMP NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (id)
 );

@@ -14,6 +14,7 @@ use Modules\WebContent\Notifications\ContactFormNotification;
 use App\Models\User;
 
 use Alert;
+use App\Models\Invitado;
 
 class PublicController extends Controller
 {
@@ -59,14 +60,24 @@ class PublicController extends Controller
 
         Log::info('TEMP BACKUP. Valores recibidos de la forma: ' . json_encode($request->all()));
 
+
         $data = [
             'name'    => $request->name,
-            'phone'   => $request->phone,
-            //'subject' => $request->subject,
             'email'   => $request->email,
-            'message' => $request->message,
+            'asistencia' => $request['asistencia'],
+            'numero_de_asistencia' => $request['numero_de_asistencia'],
 
         ];
+
+
+        //new Invitado
+        $invitado = new Invitado();
+        $invitado->name = $request->name;
+        $invitado->email = $request->email;
+        $invitado->attendance = $request['asistencia'];
+        $invitado->guests = $request['numero_de_asistencia'];
+        $invitado->save();
+
 
         try {
             $admin = User::find(config('global.user_notifiable'));

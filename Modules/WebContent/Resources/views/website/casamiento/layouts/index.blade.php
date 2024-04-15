@@ -548,7 +548,9 @@
                                 <h2>Confirmar asistencia?</h2>
                             </div>
                             <div class="wpo-contact-form-area">
-                                <form method="post" class="contact-validation-active" id="contact-form-main">
+
+                            <form method="post" class="contact-validation-active"  action="{{ route('contact.submit') }}">
+                                @csrf
                                     <div>
                                         <input type="text" class="form-control" name="name" id="name" placeholder="Nombre y Apellido">
                                     </div>
@@ -557,22 +559,22 @@
                                     </div>
                                     <div class="radio-buttons">
                                         <p>
-                                            <input type="radio" id="attend" name="radio-group" checked="">
+                                            <input type="radio" id="attend" name="asistencia" checked="" value="si-asistire">
                                             <label for="attend">Si!, Ahí estaré</label>
                                         </p>
                                         <p>
-                                            <input type="radio" id="not" name="radio-group">
+                                            <input type="radio" id="not" name="asistencia" value="no-asistire">
                                             <label for="not">Perdón, No podré asistir</label>
                                         </p>
                                     </div>
                                     <div>
-                                        <select name="guest" class="form-control">
+                                        <select name="numero_de_asistencia" class="form-control">
                                             <option disabled="disabled" selected="">Número de asistencia</option>
-                                            <option>01</option>
-                                            <option>02</option>
-                                            <option>03</option>
-                                            <option>04</option>
-                                            <option>05</option>
+                                            <option value="1">01</option>
+                                            <option value="2">02</option>
+                                            <option value="3">03</option>
+                                            <option value="4">04</option>
+                                            <option value="5">05</option>
                                         </select>
                                     </div>
                                     {{-- <div>
