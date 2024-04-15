@@ -6,6 +6,8 @@ use App\Http\Controllers\User\UserRolesController;
 use App\Http\Controllers\User\UserPermissionsController;
 use App\Http\Controllers\User\UserSettingController;
 
+
+
 //auth
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisteredUserController;
@@ -65,6 +67,7 @@ use Laravel\Socialite\Facades\Socialite;
 //     return view('website.hermed.layouts.index');
 // });
 
+Route::post('/asistencia', [App\Http\Controllers\AsistenciaController::class, 'store']);
 
 
 Route::get('/auth/redirect', function () {

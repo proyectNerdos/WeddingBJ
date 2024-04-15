@@ -496,16 +496,45 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
-
-
-
-    </div> <!-- end container -->
+   </div> <!-- end container -->
 </section>
 
+{{-- Section Hashtag fotos casamiento --}}
+
+<section class="wpo-event-section section-padding" id="event">
+    <div class="container">
+        <div class="wpo-section-title">
+            {{-- <span>Regalo</span> --}}
+            <h2 style="font-size: 50px">Compartimos este momento junto a vos</h2>
+            <p> Comparte tus fotos y videos de este hermoso día</p>
+        </div>
+        <div class="wpo-event-wrap">
+            <div class="row">
+                <div class="col-12">
+                    <div class="wpo-event-item wow fadeInUp" data-wow-duration="1200ms">
+                        <div class="wpo-event-img">
+                            <div class="wpo-event-img-inner">
+                                <img src="{{ asset('theme-front/casamiento/images/event/travelmarried.png') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="wpo-event-text">
+                            <div class="title">
+                                <h2>Información</h2>
+                            </div>
+                            <ul>
+                                <li>CBU: 123456789987654312 <br>
+                                    Alias: joseybelen.nx <br>Nombre de la cuenta: Belen Ruiu</li>
+                            </ul>
+                            <span>No habrá urna en el salón</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div> <!-- end container -->
+</section>
 
 
 
@@ -546,9 +575,9 @@
                                             <option>05</option>
                                         </select>
                                     </div>
-                                    <div>
+                                    {{-- <div>
                                         <input type="text" class="form-control" name="what" id="what" placeholder="Dejanos un mensaje!">
-                                    </div>
+                                    </div> --}}
 
                                     <div class="submit-area">
                                         <button type="submit" class="theme-btn">Enviar Asistencia</button>
