@@ -90,6 +90,8 @@ Route::get('/playground', function () {
 
 
 
+
+
 //routa para los comandos
 Route::get('comandos', [ComandosController::class, 'index'])->name('comandos');
 Route::get('comandos-work', [ComandosController::class, 'work'])->name('comandos.work');
@@ -110,6 +112,10 @@ Route::get('/dashboard', function () {
 
 
 
+
+Route::get('/galeria', function () {
+    return view('webcontent::website.casamiento.layouts.gallery');
+})->name('galeria');
 
 
 

@@ -942,7 +942,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 .wpo-page-title {
-  background: url(../images/page-title.jpg) no-repeat center top/cover;
+  background: url(../images/page-title.png) no-repeat center top/cover;
   min-height: 360px;
   position: relative;
   display: -webkit-box;

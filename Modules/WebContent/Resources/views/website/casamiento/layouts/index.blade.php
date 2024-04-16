@@ -61,7 +61,7 @@
                                         </li>
 
                                         <li class="menu-item-has-children">
-                                            <a href="#fotos">Fotos</a>
+                                            <a href="{{ route('galeria') }}">Fotos</a>
                                         </li>
 
                                         <li class="menu-item-has-children">
@@ -508,7 +508,7 @@
                     <div class="wpo-event-item wow fadeInUp" data-wow-duration="1400ms">
                         <div class="wpo-event-img">
                             <div class="wpo-event-img-inner">
-                                <img src="{{ asset('theme-front/casamiento/images/event/3.png') }}" alt="">
+                                <img src="{{ asset('theme-front/casamiento/images/event/party.png') }}" alt="">
                             </div>
                         </div>
                         <div class="wpo-event-text">
