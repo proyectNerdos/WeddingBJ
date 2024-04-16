@@ -43,7 +43,7 @@
                             </div>
                             <div class="col-lg-2 col-md-6 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand" href="index.html">Sí, quiero!</a>
+                                    <a class="navbar-brand" href="https://belenyjose.site/">Sí, quiero!</a>
                                 </div>
                             </div>
                             <div class="col-lg-8 col-md-1 col-1">
