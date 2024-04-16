@@ -2912,14 +2912,27 @@ a.ui-button:active, .ui-button:active,
   z-index: 99;
 }
 
-/* BUTTON SPOTIFY */
+/* BOTON */
 
-#spotify {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
+.button {
+    background-color: #A5AA9C; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin decoración de texto */
+    display: inline-block; /* Mostrar como bloque */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: 4px 2px; /* Margen exterior */
+    cursor: pointer; /* Cursor */
+    border-radius: 8px; /* Borde redondeado */
+}
+
+.button:hover {
+    background-color: #c9d3b6; /* Cambiar color al pasar el ratón */
+}
+a {
+    text-decoration: none;
 }
 
 

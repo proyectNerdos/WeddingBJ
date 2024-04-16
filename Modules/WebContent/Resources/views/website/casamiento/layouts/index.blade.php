@@ -51,20 +51,24 @@
                                     <button class="menu-close"><i class="ti-close"></i></button>
                                     <ul class="nav navbar-nav mb-2 mb-lg-0">
                                         <li class="menu-item-has-children">
-                                            <a class="active" href="#">Home</a>
+                                            <a class="active" href="index.html">Home</a>
+                                        </li>
+                                       <li class="menu-item-has-children">
+                                            <a href="#event">Evento</a>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="nosotros">Nosotros</a>
+                                            <a href="#acompañanos">Acompañanos</a>
+                                        </li>
 
                                         <li class="menu-item-has-children">
-                                            <a href="fotos.html">Fotos</a>
+                                            <a href="#fotos">Fotos</a>
+                                        </li>
 
-                                        </li>
-                                        <li><a href="#event">Ceremonia y Fiesta</a>
-                                        </li>
                                         <li class="menu-item-has-children">
-                                            <a href="asistencia">Asistencia</a>
+                                            <a href="#asistencia">Confirmar Asistencia</a>
                                         </li>
+
+
                                     </ul>
 
                                 </div><!-- end of nav-collapse -->
@@ -448,37 +452,22 @@
                                 </div>
                             </div>
                         </div>
-                                    {{-- Spotify --}}
-
-                        <div class="wpo-event-section section-padding spotify wow fadeInRightSlow" id="spotify">
-                            <div class="button_spotify">
-                                <div class="wpo-section-title">
-                                    <span>Agrega tu musica para la fiesta! <br><h2>Playlist</h2></span>
-                                </div>
-                                <a target="_blank" class="popup gmaps" href="https://open.spotify.com/playlist/2LWCRYGXQ7OMNPfo3a5YGG?si=Eklamt4STQuaaAdQesfX6Q&pt=0baf40013519eabe533693a301d4d799&pi=u-2CCBzP__SuSC">
-                                    <img src="{{ asset('/theme-front/casamiento/images/button_spotify_wedding.png') }}" alt="">
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div> <!-- end container -->
             </section>
 
 
-{{-- Regalo --}}
-
-
-<section class="wpo-event-section section-padding" id="event">
+ <!-- start wpo-event-section -->
+ <section class="wpo-event-section section-padding" id="acompañanos">
     <div class="container">
         <div class="wpo-section-title">
-            {{-- <span>Regalo</span> --}}
-            <h2 style="font-size: 50px">Regalo</h2>
-            <p>Dejamos un número de cuenta para ayudarnos en nuestro viaje de Luna de Miel </p>
+            <span>Junto a Nosotros</span>
+            <h2 style="font-size: 50px">Esperamos que nos acompañes!</h2>
         </div>
         <div class="wpo-event-wrap">
             <div class="row">
-                <div class="col-12">
-                    <div class="wpo-event-item wow fadeInUp" data-wow-duration="1200ms">
+                <div class="col col-lg-4 col-md-6 col-12">
+                    <div class="wpo-event-item wow fadeInUp" data-wow-duration="1000ms">
                         <div class="wpo-event-img">
                             <div class="wpo-event-img-inner">
                                 <img src="{{ asset('theme-front/casamiento/images/event/travelmarried.png') }}" alt="">
@@ -486,7 +475,7 @@
                         </div>
                         <div class="wpo-event-text">
                             <div class="title">
-                                <h2>Información</h2>
+                                <h2>Regalo</h2>
                             </div>
                             <ul>
                                 <li>CBU: 123456789987654312 <br>
@@ -496,47 +485,55 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-   </div> <!-- end container -->
-</section>
-
-{{-- Section Hashtag fotos casamiento --}}
-
-<section class="wpo-event-section section-padding" id="event">
-    <div class="container">
-        <div class="wpo-section-title">
-            {{-- <span>Regalo</span> --}}
-            <h2 style="font-size: 50px">Compartimos este momento junto a vos</h2>
-            <p> Comparte tus fotos y videos de este hermoso día</p>
-        </div>
-        <div class="wpo-event-wrap">
-            <div class="row">
-                <div class="col-12">
+                <div class="col col-lg-4 col-md-6 col-12">
                     <div class="wpo-event-item wow fadeInUp" data-wow-duration="1200ms">
                         <div class="wpo-event-img">
                             <div class="wpo-event-img-inner">
-                                <img src="{{ asset('theme-front/casamiento/images/event/travelmarried.png') }}" alt="">
+                                <img src="{{ asset('theme-front/casamiento/images/event/spotify.png') }}" alt="">
                             </div>
                         </div>
                         <div class="wpo-event-text">
                             <div class="title">
-                                <h2>Información</h2>
+                                <h2>Música</h2>
                             </div>
                             <ul>
-                                <li>CBU: 123456789987654312 <br>
-                                    Alias: joseybelen.nx <br>Nombre de la cuenta: Belen Ruiu</li>
+                                <li>Agregá los temas que no pueden faltar en la fiesta!<br></li>
+                                <li>
+                                    <a style="color: whitesmoke; text-decoration: none;" class="button" target="_blank" href="https://open.spotify.com/playlist/6SFO3wi5TDka9OEkU2Oxjx?si=iPSXQpZuQne8pLqywX7wcQ&pt=f395beb68a7ae4f2254bddfd0a8bc08c&pi=u-uyE8kac_To-3">Spotify</a>                                </li>
                             </ul>
-                            <span>No habrá urna en el salón</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-12">
+                    <div class="wpo-event-item wow fadeInUp" data-wow-duration="1400ms">
+                        <div class="wpo-event-img">
+                            <div class="wpo-event-img-inner">
+                                <img src="{{ asset('theme-front/casamiento/images/event/3.png') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="wpo-event-text">
+                            <div class="title">
+                                <h2>Comparte tus Fotografías</h2>
+                            </div>
+
+                            <ul>
+                                <li>¡Comparte tus fotos de la fiesta!</li>
+                                <li>
+                                    <form action="/upload" method="post" enctype="multipart/form-data">
+                                        @csrf
+                                        <label  for="image">Selecciona una foto:</label>
+                                        <input type="file" name="image" id="image">
+                                        <button class="button" type="submit">Subir Foto</button>
+                                    </form>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-   </div> <!-- end container -->
+    </div> <!-- end container -->
 </section>
-
-
 
         <!-- start of wpo-contact-section -->
         <section class="wpo-contact-section section-padding" id="asistencia">
