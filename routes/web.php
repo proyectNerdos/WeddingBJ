@@ -63,9 +63,18 @@ use Laravel\Socialite\Facades\Socialite;
 */
 
 
-// Route::get('/', function () {
-//     return view('website.hermed.layouts.index');
-// });
+Route::get('/', function () {
+    return view('webcontent::website.casamiento.layouts.index');
+})->name('home');
+
+
+
+
+Route::get('/galeria', function () {
+    return view('webcontent::website.casamiento.layouts.gallery');
+})->name('galeria');
+
+
 
 Route::post('/asistencia', [App\Http\Controllers\AsistenciaController::class, 'store']);
 
@@ -112,10 +121,6 @@ Route::get('/dashboard', function () {
 
 
 
-
-Route::get('/galeria', function () {
-    return view('webcontent::website.casamiento.layouts.gallery');
-})->name('galeria');
 
 
 

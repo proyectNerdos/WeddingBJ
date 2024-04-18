@@ -51,7 +51,7 @@
                                     <button class="menu-close"><i class="ti-close"></i></button>
                                     <ul class="nav navbar-nav mb-2 mb-lg-0">
                                         <li class="menu-item-has-children">
-                                            <a class="active" href="index.html">Home</a>
+                                            <a  href="{{ route('home') }}">Home</a>
                                         </li>
                                        <li class="menu-item-has-children">
                                             <a href="#event">Evento</a>

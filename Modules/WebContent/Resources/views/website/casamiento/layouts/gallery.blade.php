@@ -51,24 +51,22 @@
                                     <button class="menu-close"><i class="ti-close"></i></button>
                                     <ul class="nav navbar-nav mb-2 mb-lg-0">
                                         <li class="menu-item-has-children">
-                                            <a class="active" href="index.html">Home</a>
-                                        </li>
-                                       <li class="menu-item-has-children">
-                                            <a href="#event">Evento</a>
+                                            <a  href="{{ route('home') }}">Home</a>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="#acompañanos">Acompañanos</a>
+                                            <a href="{{ route('home') }}#event">Evento</a>
                                         </li>
-
                                         <li class="menu-item-has-children">
-                                            <a href="#fotos">Fotos</a>
+                                            <a href="{{ route('home') }}#acompañanos">Acompañanos</a>
                                         </li>
 
                                         <li class="menu-item-has-children">
-                                            <a href="#asistencia">Confirmar Asistencia</a>
+                                            <a href="{{ route('galeria') }}">Fotos</a>
                                         </li>
 
-
+                                        <li class="menu-item-has-children">
+                                            <a href="{{ route('home') }}#asistencia">Confirmar Asistencia</a>
+                                        </li>
                                     </ul>
 
                                 </div><!-- end of nav-collapse -->
@@ -125,9 +123,9 @@
                             <div class="portfolio-grids gallery-container clearfix">
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="{{ asset('theme-front/casamiento/images/portfolio/7.jpg') }}" class="fancybox"
+                                        <a href="{{ asset('theme-front/casamiento/images/portfolio/1.png') }}" class="fancybox"
                                             data-fancybox-group="gall-1">
-                                            <img src="{{ asset('theme-front/casamiento/images/portfolio/7.jpg') }}" alt class="img img-responsive">
+                                            <img src="{{ asset('theme-front/casamiento/images/portfolio/1.png') }}" alt class="img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
@@ -136,9 +134,9 @@
                                 </div>
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="{{ asset('theme-front/casamiento/images/portfolio/8.jpg') }}" class="fancybox"
+                                        <a href="{{ asset('theme-front/casamiento/images/portfolio/2.png') }}" class="fancybox"
                                             data-fancybox-group="gall-1">
-                                            <img src="{{ asset('theme-front/casamiento/images/portfolio/8.jpg') }}" alt class="img img-responsive">
+                                            <img src="{{ asset('theme-front/casamiento/images/portfolio/2.png') }}" alt class="img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
@@ -147,9 +145,9 @@
                                 </div>
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="{{ asset('theme-front/casamiento/images/portfolio/9.jpg') }}" class="fancybox"
+                                        <a href="{{ asset('theme-front/casamiento/images/portfolio/3.png') }}" class="fancybox"
                                             data-fancybox-group="gall-1">
-                                            <img src="{{ asset('theme-front/casamiento/images/portfolio/9.jpg') }}" alt class="img img-responsive">
+                                            <img src="{{ asset('theme-front/casamiento/images/portfolio/3.png') }}" alt class="img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
@@ -158,9 +156,9 @@
                                 </div>
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="{{ asset('theme-front/casamiento/images/portfolio/10.jpg') }}" class="fancybox"
+                                        <a href="{{ asset('theme-front/casamiento/images/portfolio/4.png') }}" class="fancybox"
                                             data-fancybox-group="gall-1">
-                                            <img src="{{ asset('theme-front/casamiento/images/portfolio/10.jpg') }}" alt class="img img-responsive">
+                                            <img src="{{ asset('theme-front/casamiento/images/portfolio/4.png') }}" alt class="img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
@@ -169,9 +167,20 @@
                                 </div>
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="{{ asset('theme-front/casamiento/images/portfolio/11.jpg') }}" class="fancybox"
+                                        <a href="{{ asset('theme-front/casamiento/images/portfolio/5.png') }}" class="fancybox"
                                             data-fancybox-group="gall-1">
-                                            <img src="{{ asset('theme-front/casamiento/images/portfolio/11.jpg') }}" alt class="img img-responsive">
+                                            <img src="{{ asset('theme-front/casamiento/images/portfolio/5.png') }}" alt class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="{{ asset('theme-front/casamiento/images/portfolio/6.png') }}" class="fancybox"
+                                            data-fancybox-group="gall-1">
+                                            <img src="{{ asset('theme-front/casamiento/images/portfolio/6.png') }}" alt class="img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
