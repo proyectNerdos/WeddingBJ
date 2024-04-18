@@ -75,7 +75,7 @@ class PublicController extends Controller
         $invitado->name = $request->name;
         $invitado->email = $request->email;
         $invitado->attendance = $request['asistencia'];
-        $invitado->guests = $request['numero_de_asistencia'];
+        // $invitado->guests = $request['numero_de_asistencia'];
         $invitado->save();
 
 

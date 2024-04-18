@@ -564,7 +564,7 @@
                                             <label for="not">Perdón, No podré asistir</label>
                                         </p>
                                     </div>
-                                    <div>
+                                    {{-- <div>
                                         <select name="numero_de_asistencia" class="form-control">
                                             <option disabled="disabled" selected="">Número de asistencia</option>
                                             <option value="1">01</option>
@@ -573,7 +573,7 @@
                                             <option value="4">04</option>
                                             <option value="5">05</option>
                                         </select>
-                                    </div>
+                                    </div> --}}
                                     {{-- <div>
                                         <input type="text" class="form-control" name="what" id="what" placeholder="Dejanos un mensaje!">
                                     </div> --}}
