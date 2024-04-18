@@ -1,3 +1,12 @@
+# DEVSM 2024.4.18 Tabla para las fotos de galeria
+
+CREATE TABLE gallery (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    image BLOB,
+    image_filename VARCHAR(255)
+);
+
+
 # DEVSM 2024.4.15
 
 Name database: belenyjose

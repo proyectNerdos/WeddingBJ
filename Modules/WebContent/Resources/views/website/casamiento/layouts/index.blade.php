@@ -421,9 +421,9 @@
                             <ul>
                                 <li>¡Comparte tus fotos de la fiesta!</li>
                                 <li>
-                                    <form action="/upload" method="post" enctype="multipart/form-data">
+                                    <form action="{{ url('/upload') }}" method="post" enctype="multipart/form-data">
                                         @csrf
-                                        <label  for="image">Selecciona una foto:</label>
+                                        <label for="image">Selecciona una foto:</label>
                                         <input type="file" name="image" id="image">
                                         <button class="button" type="submit">Subir Foto</button>
                                     </form>
@@ -438,7 +438,7 @@
 </section>
 
         <!-- start of wpo-contact-section -->
-        <section class="wpo-contact-section section-padding" id="asistencia">
+        {{-- <section class="wpo-contact-section section-padding" id="asistencia">
             <div class="container-fluid">
                 <div class="row justify-content-center">
                     <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
@@ -467,19 +467,6 @@
                                             <label for="not">Perdón, No podré asistir</label>
                                         </p>
                                     </div>
-                                    {{-- <div>
-                                        <select name="numero_de_asistencia" class="form-control">
-                                            <option disabled="disabled" selected="">Número de asistencia</option>
-                                            <option value="1">01</option>
-                                            <option value="2">02</option>
-                                            <option value="3">03</option>
-                                            <option value="4">04</option>
-                                            <option value="5">05</option>
-                                        </select>
-                                    </div> --}}
-                                    {{-- <div>
-                                        <input type="text" class="form-control" name="what" id="what" placeholder="Dejanos un mensaje!">
-                                    </div> --}}
 
                                     <div class="submit-area">
                                         <button type="submit" class="theme-btn">Enviar Asistencia</button>
@@ -523,13 +510,13 @@
                     <img src="{{ asset('theme-front/casamiento/images/rsvp/shape6.svg') }}" alt="">
                 </div>
             </div>
-        </section>
+        </section> --}}
 
 
 
     @section('scripts')
-
          @include('webcontent::website.casamiento.layouts.scripts')
+         @include('webcontent::website.casamiento.js.dropify')
      @show
 
 

@@ -5,6 +5,7 @@
     <meta name="author" content="wpOceans">
     <link rel="shortcut icon" type="image/png" href="{{ asset('theme-front/casamiento/images/favicon.png') }}">
     <title> Nos Casamos! Belén y José Maria</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/css/dropify.min.css">
     <link href="{{ asset('theme-front/casamiento/css/themify-icons.css') }}" rel="stylesheet">
     <link href="{{ asset('theme-front/casamiento/css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ asset('theme-front/casamiento/css/flaticon.css') }}" rel="stylesheet">

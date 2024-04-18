@@ -75,6 +75,8 @@ Route::get('/galeria', function () {
 })->name('galeria');
 
 
+Route::post('/upload', 'App\Http\Controllers\ImageUploadController@store');
+
 
 Route::post('/asistencia', [App\Http\Controllers\AsistenciaController::class, 'store']);
 
