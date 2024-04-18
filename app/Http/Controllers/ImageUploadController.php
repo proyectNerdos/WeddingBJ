@@ -11,13 +11,16 @@ class ImageUploadController extends Controller
     {
         $request->validate([
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+
         ]);
+
+        dd($request->image);
 
         $imageName = time().'.'.$request->image->extension();
 
-        <?php
-        $request->image->move('WebContent::website.casamiento.gallery', $imageName);
-        ?>
+
+        $request->image->move(base_path('Modules\WebContent\Resources\assets\gallery'), $imageName);
+
         $gallery = new Gallery;
         $gallery->image = 'gallery/'.$imageName;
         $gallery->image_filename = $imageName;
