@@ -67,10 +67,7 @@
                                         <li class="menu-item-has-children">
                                             <a href="#asistencia">Confirmar Asistencia</a>
                                         </li>
-
-
                                     </ul>
-
                                 </div><!-- end of nav-collapse -->
                             </div>
                             <div class="col-lg-2 col-md-2 col-2">
@@ -478,8 +475,10 @@
                                 <h2>Regalo</h2>
                             </div>
                             <ul>
-                                <li>CBU: 123456789987654312 <br>
-                                    Alias: joseybelen.nx <br>Nombre de la cuenta: Belen Ruiu</li>
+                                <li>CBU: 2850600140001035210905 <br>
+                                    Alias: Belen.Ruiu
+                                    <br>Nombre de la cuenta: MARIA BELEN RUIU
+                                </li>
                             </ul>
                             <span>No habrá urna en el salón</span>
                         </div>
