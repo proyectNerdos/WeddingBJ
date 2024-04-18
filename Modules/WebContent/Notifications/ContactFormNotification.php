@@ -56,7 +56,7 @@ class ContactFormNotification extends Notification
             ->line('Nombre: ' .   $this->data['name'])
             ->line('Email: ' . $this->data['email'])
             ->line('Asistencia: ' . $this->data['asistencia'])
-            ->line('Numero de asistencia: ' . $this->data['numero_de_asistencia']);
+            // ->line('Numero de asistencia: ' . $this->data['numero_de_asistencia']);
 
             return $mailMessage;
 
