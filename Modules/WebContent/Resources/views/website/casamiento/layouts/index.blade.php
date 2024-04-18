@@ -50,21 +50,21 @@
                                 <div id="navbar" class="collapse navbar-collapse navigation-holder">
                                     <button class="menu-close"><i class="ti-close"></i></button>
                                     <ul class="nav navbar-nav mb-2 mb-lg-0">
-                                        <li class="menu-item-has-children">
+                                        <li class="">
                                             <a  href="{{ route('home') }}">Home</a>
                                         </li>
-                                       <li class="menu-item-has-children">
+                                       <li class="">
                                             <a href="#event">Evento</a>
                                         </li>
-                                        <li class="menu-item-has-children">
+                                        <li class="">
                                             <a href="#acompañanos">Acompañanos</a>
                                         </li>
 
-                                        <li class="menu-item-has-children">
+                                        <li class="">
                                             <a href="{{ route('galeria') }}">Fotos</a>
                                         </li>
 
-                                        <li class="menu-item-has-children">
+                                        <li class="">
                                             <a href="#asistencia">Confirmar Asistencia</a>
                                         </li>
                                     </ul>
@@ -620,9 +620,9 @@
                 </div>
             </div>
         </section>
-        <!-- end of wpo-contact-section -->
 
     @section('scripts')
+
          @include('webcontent::website.casamiento.layouts.scripts')
      @show
 
