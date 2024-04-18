@@ -110,10 +110,6 @@
                                     <div data-swiper-parallax="400" class="slide-text wow fadeInUp" data-wow-duration="1600ms">
                                         <p>¡Nos Casamos!</p>
                                     </div>
-
-
-
-
                                     <div class="wpo-wedding-date wow fadeInUp" data-wow-duration="1700ms">
                                         <div class="clock-grids">
                                             <ul class="counter">
@@ -124,12 +120,6 @@
                                                 </ul>
                                         </div>
                                     </div>
-
-
-
-
-
-
                                     <div class="shape-2 wow fadeInUp" data-wow-duration="1800ms"><img src="{{ asset('theme-front/casamiento/images/slider/shape2.svg') }}" alt=""></div>
                                     <div class="clearfix"></div>
                                 </div>
@@ -216,93 +206,6 @@
             </div>
         </section>
         <!-- end couple-section -->
-
-        <!-- start wpo-story-section -->
-        {{-- <section class="wpo-story-section section-padding" id="story">
-            <div class="container">
-                <div class="wpo-section-title">
-                    <span>Our Story</span>
-                    <h2>How it Happened</h2>
-                </div>
-                <div class="wpo-story-wrap">
-                    <div class="wpo-story-item">
-                        <div class="wpo-story-img-wrap">
-                            <div class="wpo-story-img wow zoomIn" data-wow-duration="1000ms">
-                                <img src="{{ asset('theme-front/casamiento/images/story/1.jpg') }}" alt="">
-                            </div>
-                            <div class="wpo-img-shape">
-                                <img src="{{ asset('theme-front/casamiento/images/story/shape.png') }}" alt="">
-                            </div>
-                        </div>
-                        <div class="wpo-story-content">
-                            <div class="wpo-story-content-inner wow fadeInRightSlow" data-wow-duration="1700ms">
-                                <span>15 June, 2014</span>
-                                <h2>How we meet</h2>
-                                <p>Consectetur adipiscing elit. Fringilla at risus orci, tempus facilisi sed. Enim
-                                    tortor, faucibus netus orci donec volutpat adipiscing. Sit condimentum elit
-                                    convallis libero. Nunc in eu tellus ipsum placerat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="wpo-story-item">
-                        <div class="wpo-story-img-wrap">
-                            <div class="wpo-story-img wow zoomIn" data-wow-duration="1000ms">
-                                <img src="{{ asset('theme-front/casamiento/images/story/2.jpg') }}" alt="">
-                            </div>
-                            <div class="clip-shape">
-                                <svg viewbox="0 0 382 440" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M191 0L381.526 110V330L191 440L0.474411 330V110L191 0Z"></path>
-                                </svg>
-                            </div>
-                            <div class="wpo-img-shape">
-                                <img src="{{ asset('theme-front/casamiento/images/story/shape2.png') }}" alt="">
-                            </div>
-                        </div>
-                        <div class="wpo-story-content">
-                            <div class="wpo-story-content-inner wow fadeInLeftSlow" data-wow-duration="1700ms">
-                                <span>02 Nov, 2020</span>
-                                <h2>He proposed, I said yes</h2>
-                                <p>Consectetur adipiscing elit. Fringilla at risus orci, tempus facilisi sed. Enim
-                                    tortor, faucibus netus orci donec volutpat adipiscing. Sit condimentum elit
-                                    convallis libero. Nunc in eu tellus ipsum placerat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="wpo-story-item">
-                        <div class="wpo-story-img-wrap">
-                            <div class="wpo-story-img wow zoomIn" data-wow-duration="1000ms">
-                                <img src="{{ asset('theme-front/casamiento/images/story/3.jpg') }}" alt="">
-                            </div>
-                            <div class="wpo-img-shape">
-                                <img src="{{ asset('theme-front/casamiento/images/story/shape3.png') }}" alt="">
-                            </div>
-                        </div>
-                        <div class="wpo-story-content">
-                            <div class="wpo-story-content-inner wow fadeInRightSlow" data-wow-duration="1700ms">
-                                <span>15 Apr, 2021</span>
-                                <h2>Our Engagement Day</h2>
-                                <p>Consectetur adipiscing elit. Fringilla at risus orci, tempus facilisi sed. Enim
-                                    tortor, faucibus netus orci donec volutpat adipiscing. Sit condimentum elit
-                                    convallis libero. Nunc in eu tellus ipsum placerat.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end container -->
-            <div class="flower-shape-1">
-                <img src="{{ asset('theme-front/casamiento/images/story/flower-shape1.svg') }}" alt="">
-            </div>
-            <div class="flower-shape-2">
-                <img src="{{ asset('theme-front/casamiento/images/story/flower-shape2.svg') }}" alt="">
-            </div>
-            <div class="flower-shape-3">
-                <img src="{{ asset('theme-front/casamiento/images/story/flower-shape3.svg') }}" alt="">
-            </div>
-            <div class="flower-shape-4">
-                <img src="{{ asset('theme-front/casamiento/images/story/flower-shape4.svg') }}" alt="">
-            </div>
-        </section> --}}
-        <!-- end story-section -->
 
         <!-- start wpo-portfolio-section -->
         <section class="wpo-portfolio-section section-padding" id="gallery">
@@ -549,6 +452,7 @@
                                 @csrf
                                     <div>
                                         <input type="text" class="form-control" name="name" id="name" placeholder="Nombre y Apellido">
+
                                     </div>
                                     <div>
                                         <input type="email" class="form-control" name="email" id="email" placeholder="Email">
@@ -620,6 +524,8 @@
                 </div>
             </div>
         </section>
+
+
 
     @section('scripts')
 
