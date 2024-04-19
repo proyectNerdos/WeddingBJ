@@ -1,3 +1,5 @@
+
+
 <script src="{{ asset('theme-front/casamiento/js/jquery.min.js') }}"></script>
 <script src="{{ asset('theme-front/casamiento/js/bootstrap.bundle.min.js') }}"></script>
 <!-- Plugins for this template -->
@@ -8,7 +10,7 @@
 <!-- Custom script for this template -->
 <script src="{{ asset('theme-front/casamiento/js/script.js') }}"></script>
 <script src="{{ asset('theme-front/casamiento/js/counter.js') }}"></script>
-
+@include('sweetalert::alert')
 @yield('scripts')
 
 

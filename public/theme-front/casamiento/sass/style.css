@@ -1468,6 +1468,26 @@ a.ui-button:active, .ui-button:active,
   font-size: 18px;
 }
 
+.custom-file-upload {
+    display: inline-block;
+    background-color: #7d7a64;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+  }
+
+  .custom-file-upload:hover {
+    background-color: #7d7a64;
+  }
+
+  .custom-file-upload i {
+    margin-right: 5px;
+  }
+
+
 @media (max-width: 767px) {
   .blog-sidebar .category-widget ul a span {
     font-size: 14px;

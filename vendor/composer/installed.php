@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '6a4fbdda4fdf0aaeb09d56ddcd79732feb1ec833',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -707,9 +707,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '6a4fbdda4fdf0aaeb09d56ddcd79732feb1ec833',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1374,9 +1374,9 @@
             'dev_requirement' => false,
         ),
         'realrashid/sweet-alert' => array(
-            'pretty_version' => 'v5.1.0',
-            'version' => '5.1.0.0',
-            'reference' => 'fb837beaa52568fb3106d311ff3c7a7b8e543608',
+            'pretty_version' => 'v7.1.1',
+            'version' => '7.1.1.0',
+            'reference' => '2d38720644fb30ff6db4e2a5ee013c09057b1f3b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../realrashid/sweet-alert',
             'aliases' => array(),

@@ -424,8 +424,12 @@
                                     <form action="{{ url('/upload') }}" method="post" enctype="multipart/form-data">
                                         @csrf
                                         <label for="image">Selecciona una foto:</label>
-                                        <input type="file" name="image" id="image">
-                                        <button class="button" type="submit">Subir Foto</button>
+                                        <label for="image" class="custom-file-upload">
+                                            <i class="fas fa-cloud-upload-alt"></i> Seleccionar o Tomar Foto
+                                          </label>
+                                          <input type="file" name="image" id="image" style="display:none;">
+                                        {{-- <input type="file" name="image" id="image"> --}}
+                                        <button class="button" type="submit">Cargar Foto a la galería</button>
                                     </form>
                                 </li>
                             </ul>

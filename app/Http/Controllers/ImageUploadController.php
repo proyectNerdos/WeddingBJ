@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+Use Alert;
 use Illuminate\Http\Request;
 use App\Models\Gallery;
 
@@ -13,6 +13,7 @@ class ImageUploadController extends Controller
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:500000',
         ]);
 
+        Alert::success('Felicidades', 'Foto Cargada en la Galeria!');
 
         $imageName = time().'.'.$request->image->extension();
 
@@ -25,6 +26,7 @@ class ImageUploadController extends Controller
         $galleries->save();
 
         return back()
+
             ->with('success','Has subido la foto correctamente..')
             ->with('image',$imageName);
     }

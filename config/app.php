@@ -156,6 +156,11 @@ return [
     */
 
     'providers' => [
+/*
+        * Package Service Providers...
+        */
+        RealRashid\SweetAlert\SweetAlertServiceProvider::class,
+
 
         /*
          * Laravel Framework Service Providers...
@@ -227,3 +232,5 @@ return [
     ])->toArray(),
 
 ];
+
+
