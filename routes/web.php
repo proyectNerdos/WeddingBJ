@@ -67,8 +67,7 @@ Route::get('/', function () {
     return view('webcontent::website.casamiento.layouts.index');
 })->name('home');
 
-
-
+Route::get('/galeria', 'GalleryController@index')->name('galeria');
 
 Route::get('/galeria', function () {
     return view('webcontent::website.casamiento.layouts.gallery');

@@ -176,6 +176,7 @@
                                         </a>
                                     </div>
                                 </div>
+
                                 <div class="grid">
                                     <div class="img-holder">
                                         <a href="{{ asset('theme-front/casamiento/images/portfolio/6.png') }}" class="fancybox"
@@ -187,6 +188,19 @@
                                         </a>
                                     </div>
                                 </div>
+
+                                @foreach ($images as $image)
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="{{ asset('Modules/WebContent/Resources/assets/gallery/' . $image->image) }}" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="{{ asset('Modules/WebContent/Resources/assets/gallery/' . $image->image) }}" alt class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                @endforeach
 
                             </div>
                         </div>
