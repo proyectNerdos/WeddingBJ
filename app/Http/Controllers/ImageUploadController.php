@@ -10,7 +10,7 @@ class ImageUploadController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:50000000000',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:50000',
         ]);
 
 
