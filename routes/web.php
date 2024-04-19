@@ -69,9 +69,9 @@ Route::get('/', function () {
 
 Route::get('/galeria', 'GalleryController@index')->name('galeria');
 
-Route::get('/galeria', function () {
-    return view('webcontent::website.casamiento.layouts.gallery');
-})->name('galeria');
+// Route::get('/galeria', function () {
+//     return view('webcontent::website.casamiento.layouts.gallery');
+// })->name('galeria');
 
 
 Route::post('/upload', 'App\Http\Controllers\ImageUploadController@store');
