@@ -18,6 +18,7 @@ class ImageUploadController extends Controller
         $imageName = time().'.'.$request->image->extension();
 
 
+
         $request->image->move(public_path('theme-front/casamiento/gallery'), $imageName);
 
         $galleries = new Gallery;
