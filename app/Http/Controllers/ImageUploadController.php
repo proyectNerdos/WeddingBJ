@@ -10,13 +10,14 @@ class ImageUploadController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:50000',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:500000',
         ]);
 
 
         $imageName = time().'.'.$request->image->extension();
 
-        $request->image->move(base_path('Modules\WebContent\Resources\assets\gallery'), $imageName);
+
+        $request->image->move(public_path('theme-front/casamiento/gallery'), $imageName);
 
         $galleries = new Gallery;
         $galleries->image = 'gallery/'.$imageName;

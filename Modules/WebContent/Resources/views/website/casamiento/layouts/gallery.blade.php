@@ -121,7 +121,7 @@
                         <div class="sortable-gallery">
                             <div class="gallery-filters"></div>
                             <div class="portfolio-grids gallery-container clearfix">
-                                <div class="grid">
+                                {{-- <div class="grid">
                                     <div class="img-holder">
                                         <a href="{{ asset('theme-front/casamiento/images/portfolio/1.png') }}" class="fancybox"
                                             data-fancybox-group="gall-1">
@@ -187,13 +187,13 @@
                                             </div>
                                         </a>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 @foreach ($images as $image)
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="{{ asset('Modules/WebContent/Resources/assets/gallery/' . $image->image) }}" class="fancybox" data-fancybox-group="gall-1">
-                                            <img src="{{ asset('Modules/WebContent/Resources/assets/gallery/' . $image->image) }}" alt class="img img-responsive">
+                                        <a href="{{ asset('theme-front/casamiento/' . $image->image) }}" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="{{ asset('theme-front/casamiento/' . $image->image) }}" alt class="img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
@@ -201,7 +201,6 @@
                                     </div>
                                 </div>
                                 @endforeach
-
                             </div>
                         </div>
                     </div>

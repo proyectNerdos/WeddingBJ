@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\GalleryController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\User\UserController;
 use App\Http\Controllers\User\UserRolesController;
@@ -67,7 +67,9 @@ Route::get('/', function () {
     return view('webcontent::website.casamiento.layouts.index');
 })->name('home');
 
-Route::get('/galeria', 'GalleryController@index')->name('galeria');
+Route::get('/galeria', [GalleryController::class, 'index'])->name('galeria');
+
+// Route::get('/galeria', 'GalleryController@index')->name('galeria');
 
 // Route::get('/galeria', function () {
 //     return view('webcontent::website.casamiento.layouts.gallery');
