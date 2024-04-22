@@ -379,11 +379,10 @@
                             </div>
                             <ul>
                                 <li>CBU: 2850600140001035210905 <br>
-                                    Alias: Belen.Ruiu
-                                    <br>Nombre de la cuenta: MARIA BELEN RUIU
+                                    Alias: Belen.Ruiu <br>Nombre de la cuenta: MARIA BELEN RUIU
                                 </li>
                             </ul>
-                            <span>No habrá urna en el salón</span>
+                            <span>No habrá urna en el salón - Por otros regalos <a target="_blank" href="https://wa.me/5493865202297">ponete en contacto con nosotros!</a> </span>
                         </div>
                     </div>
                 </div>
@@ -399,7 +398,7 @@
                                 <h2>Música</h2>
                             </div>
                             <ul>
-                                <li>Agregá los temas que no pueden faltar en la fiesta!<br></li>
+                                <li>¡Haz que nuestra fiesta sea inolvidable! Agrega las canciones que no pueden faltar a nuestra playlist <br></li>
                                 <li>
                                     <a style="color: whitesmoke; text-decoration: none;" class="button" target="_blank" href="https://open.spotify.com/playlist/6SFO3wi5TDka9OEkU2Oxjx?si=iPSXQpZuQne8pLqywX7wcQ&pt=f395beb68a7ae4f2254bddfd0a8bc08c&pi=u-uyE8kac_To-3">Spotify</a>                                </li>
                             </ul>
