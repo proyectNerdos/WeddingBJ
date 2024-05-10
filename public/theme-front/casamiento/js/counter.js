@@ -1,3 +1,5 @@
+// CONTADOR PARA CASAMIENTO CUENTA REGRESIVA
+
 var now = new Date();
 var current_year = now.getFullYear();
 var next_year = current_year + 1;
