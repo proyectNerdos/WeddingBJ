@@ -2,7 +2,7 @@ var now = new Date();
 var current_year = now.getFullYear();
 var next_year = current_year + 1;
 
-var target_date = new Date("June 1, 2024").getTime();
+var target_date = new Date("June 1, 2024 17:00:00").getTime();
 
 var days, hours, minutes, seconds;
 
@@ -28,14 +28,14 @@ function update() {
     document.getElementById("h").innerText = pad(hours, 2);
     document.getElementById("m").innerText = pad(minutes, 2);
     document.getElementById("s").innerText = pad(seconds, 2);
-  }
+}
 
-  update();
+update();
 
-  setInterval(update, 1000);
+setInterval(update, 1000);
 
-  function pad(num, size) {
+function pad(num, size) {
     var s = num + "";
     while (s.length < size) s = "0" + s;
     return s;
-  }
+}
