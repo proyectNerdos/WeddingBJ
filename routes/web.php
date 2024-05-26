@@ -62,10 +62,18 @@ use Laravel\Socialite\Facades\Socialite;
 |
 */
 
+//use publicController
+use App\Http\Controllers\Front\PublicController;
+
 
 Route::get('/', function () {
     return view('webcontent::website.casamiento.layouts.index');
 })->name('home');
+
+
+//nueva urll para cargar imagen por qr de los invitados
+Route::get('qr', [PublicController::class, 'qr'])->name('qr');
+
 
 Route::get('/galeria', [GalleryController::class, 'index'])->name('galeria');
 
@@ -221,7 +229,6 @@ Route::group(['middleware' => ['auth']], function () {
     Route::put('user-perfil-update', [UserSettingController::class, 'update'])->name('user.setting.update');
     Route::delete('user-perfil-destroy', [UserSettingController::class, 'destroy'])->name('user.setting.destroy');
     /*==============================Setting Perfil USUARIOS===================================*/
-
 
 
     //empleados

@@ -41,10 +41,10 @@ class PublicController extends AdminBaseController
 
 
 
-    public function index()
+    public function qr()
     {
 
-        return view('website.hermed.home');
+        return view('webcontent::website.casamiento.qr');
     }
 
 
