@@ -39,9 +39,34 @@
             margin-top: 20px;
         }
 
+        #submitButton {
+    background-color: #45a049; /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#submitButton:disabled {
+    background-color: #808080; /* Gris */
+    color: white;
+}
+
+#submitButton:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+
         .button, .custom-file-upload {
             display: inline-block;
-            background-color: #4CAF50;
+            background-color: #45a049;
             color: white;
             padding: 15px 30px;
             text-align: center;
@@ -97,76 +122,93 @@
                 <div class="icon" style="text-align: center;">
                     <i class="fas fa-hand-point-down"></i>
                 </div>
-                <p>¡Sube tus fotos de la fiesta para compartirlas con los novios y los invitados! <br> <br> 1- Selecciona una foto de tu galería o toma una foto. <br> 2- Presiona el botón "Subir a Galería!". <br> 3- ¡Listo! Tu foto se subirá a la galería. </p>
+                <p>¡Sube tus fotos de la fiesta para compartirlas con los novios y los invitados! <br> <br> 1- Selecciona una foto de tu galería o toma una foto. <br> 2- Presiona el botón "Enviar foto!". <br> 3- ¡Listo! Tu foto se subirá a la galería. </p>
 
                 <ul>
                     <li>
-                        <form id="upload-form" action="{{ url('/upload') }}" method="post" enctype="multipart/form-data" onsubmit="event.preventDefault(); uploadImage();">
+                        <form id="upload-form" action="{{ url('/upload') }}" method="post" enctype="multipart/form-data">
                             @csrf
                             <label for="image" class="custom-file-upload" style="border: 1px solid #007bff;">
                                 <i class="fas fa-cloud-upload-alt"></i>
                                 Seleccionar foto de galería!
                             </label>
                             <input type="file" name="image" id="image" style="display:none;">
-                            <div class="button-container">
-                                <button class="button" type="submit" onclick="uploadImage()">Enviar Foto!</button>
-                            </div>
                             <div id="progressBar" style="display: none; width: 100%; background-color: #f3f3f3;">
-                                <div id="progressBarInner" style="height: 20px; width: 0%; background-color: #4CAF50;"></div>
-                              </div>
-                              <br>
+                                <div id="progressBarInner" style="height: 20px; width: 0%; background-color: #4CAF50;">
+                                    <span id="progressText" style="color: white;"></span>
+                            </div>
+
+                            </div>
+                            <br>
+                            <div class="button-container">
+                                <button  type="submit" id="submitButton">Enviar foto!</button>
+                            </div>
+
+                            </div>
+                            <br>
                         </form>
                     </li>
-                    <li>
-                        <a href="{{ url('/galeria') }}" class="button">Visitar Galería</a>
+                    <li style="list-style-type: none;">
+                        <a href="{{ url('/galeria') }}" target="_blank" class="button">Visitar Galería</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script>
-    function uploadImage() {
-      var formData = new FormData(document.getElementById('upload-form'));
-      var progressBar = document.getElementById('progressBar');
-      var progressBarInner = document.getElementById('progressBarInner');
+    // Deshabilita el botón de envío al cargar la página
+    $(document).ready(function() {
+        $('#submitButton').prop('disabled', true);
+        $('#submitButton').css('background-color', '#808080'); // Cambia el color a gris
+    });
 
-      $.ajax({
-        xhr: function() {
-          var xhr = new XMLHttpRequest();
-          xhr.upload.addEventListener('progress', function(e) {
-            if (e.lengthComputable) {
-              var percentComplete = (e.loaded / e.total) * 100;
-              progressBarInner.style.width = percentComplete + '%';
+    // Cuando se selecciona una imagen
+    $('#image').change(function() {
+        var progressBar = $('#progressBar');
+        var progressBarInner = $('#progressBarInner');
+        var progressText = $('#progressText');
+        var submitButton = $('#submitButton');
+
+        // Muestra la barra de progreso
+        progressBar.show();
+
+        // Simula el progreso de la carga
+        var progress = 0;
+        var interval = setInterval(function() {
+            progress += 10;
+            progressBarInner.width(progress + '%');
+            progressText.text(progress + '%');
+
+            // Cuando la carga llega al 100%, oculta la barra de progreso y habilita el botón de envío
+            if (progress >= 100) {
+                clearInterval(interval);
+                setTimeout(function() {
+                    progressBar.hide();
+                    progressBarInner.width('0%');
+                    progressText.text('');
+                    submitButton.prop('disabled', false);
+                    submitButton.css('background-color', '#008000'); // Cambia el color a verde oscuro
+                }, 2000);
             }
-          }, false);
-          return xhr;
-        },
-        type: 'POST',
-        url: '{{ url('/upload') }}',
-        data: formData,
-        processData: false,
-        contentType: false,
-        beforeSend: function() {
-          progressBar.style.display = 'block';
-        },
-        success: function(data) {
-          alert('La foto se ha cargado con éxito!');
-          location.reload(); // Refresca la página
-        },
-        error: function(data) {
-          alert('Hubo un error al cargar la foto. Por favor, seleccione primero una imagen.');
-        },
-        complete: function() {
-          setTimeout(function() {
-            progressBar.style.display = 'none';
-            progressBarInner.style.width = '0%';
-          }, 2000);
-        }
-      });
-    }
-    </script>
+        }, 500);
+    });
+
+    // Cuando se envía el formulario, deshabilita el botón de envío
+    $('#upload-form').submit(function() {
+        $('#submitButton').prop('disabled', true);
+        $('#submitButton').css('background-color', '#808080'); // Cambia el color a gris
+    });
+</script>
+
+<script>
+    // Deshabilita el botón de envío al cargar la página
+    document.querySelector('button[type="submit"]').disabled = true;
+</script>
+
 </body>
 </html>
