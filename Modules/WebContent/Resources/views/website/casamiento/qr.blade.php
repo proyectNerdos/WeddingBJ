@@ -111,6 +111,10 @@
                             <div class="button-container">
                                 <button class="button" type="submit" onclick="uploadImage()">Enviar Foto!</button>
                             </div>
+                            <div id="progressBar" style="display: none; width: 100%; background-color: #f3f3f3;">
+                                <div id="progressBarInner" style="height: 20px; width: 0%; background-color: #4CAF50;"></div>
+                              </div>
+                              <br>
                         </form>
                     </li>
                     <li>
@@ -126,19 +130,40 @@
 <script>
     function uploadImage() {
       var formData = new FormData(document.getElementById('upload-form'));
+      var progressBar = document.getElementById('progressBar');
+      var progressBarInner = document.getElementById('progressBarInner');
 
       $.ajax({
+        xhr: function() {
+          var xhr = new XMLHttpRequest();
+          xhr.upload.addEventListener('progress', function(e) {
+            if (e.lengthComputable) {
+              var percentComplete = (e.loaded / e.total) * 100;
+              progressBarInner.style.width = percentComplete + '%';
+            }
+          }, false);
+          return xhr;
+        },
         type: 'POST',
         url: '{{ url('/upload') }}',
         data: formData,
         processData: false,
         contentType: false,
+        beforeSend: function() {
+          progressBar.style.display = 'block';
+        },
         success: function(data) {
           alert('La foto se ha cargado con éxito!');
           location.reload(); // Refresca la página
         },
         error: function(data) {
           alert('Hubo un error al cargar la foto. Por favor, seleccione primero una imagen.');
+        },
+        complete: function() {
+          setTimeout(function() {
+            progressBar.style.display = 'none';
+            progressBarInner.style.width = '0%';
+          }, 2000);
         }
       });
     }
