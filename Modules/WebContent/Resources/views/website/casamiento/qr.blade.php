@@ -122,7 +122,7 @@
                 <div class="icon" style="text-align: center;">
                     <i class="fas fa-hand-point-down"></i>
                 </div>
-                <p>¡Sube tus fotos de la fiesta para compartirlas con los novios y los invitados! <br> <br> 1- Selecciona una foto de tu galería o toma una foto. <br> 2- Presiona el botón "Enviar foto!". <br> 3- ¡Listo! Tu foto se subirá a la galería. </p>
+                <p>¡Sube tus fotos de la fiesta para compartirlas con los novios y los invitados! <br> <br> 1- Selecciona una foto de tu galería o toma una foto. <br> 2- Presiona el botón "Enviar Foto!". <br> 3- ¡Listo! Tu foto se subirá a la galería. </p>
 
                 <ul>
                     <li>
@@ -157,10 +157,28 @@
     </div>
 </section>
 
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script>
+
+    // Cuando se envía el formulario, deshabilita el botón de envío y muestra un mensaje de éxito
+$('#upload-form').submit(function(e) {
+    e.preventDefault();
+    $('#submitButton').prop('disabled', true);
+    $('#submitButton').css('background-color', '#808080'); // Cambia el color a gris
+
+    // Muestra un popup de éxito
+    swal({
+        title: "¡Buen trabajo!",
+        text: "La foto se cargó correctamente",
+        icon: "success",
+    }).then((value) => {
+        // Envía el formulario manualmente
+        this.submit();
+    });
+});
+
     // Deshabilita el botón de envío al cargar la página
     $(document).ready(function() {
         $('#submitButton').prop('disabled', true);
