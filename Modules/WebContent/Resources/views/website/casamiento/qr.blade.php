@@ -1,103 +1,42 @@
 <style>
-    /* Estilos para dispositivos móviles */
-    @media (max-width: 767px) {
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; /* Ajusta la altura según tu diseño */
-        }
-        .col {
-            max-width: 100%;
-        }
-        .wpo-event-item {
-            margin-bottom: 30px;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .wpo-event-img {
-            position: relative;
-            overflow: hidden;
-            border-radius: 10px 10px 0 0;
-        }
-        .wpo-event-img img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        .wpo-event-text {
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 0 0 10px 10px;
-        }
-        .title h2 {
-            font-size: 24px;
-            margin-bottom: 15px;
-            color: #333;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            text-align: left;
-        }
-        li {
-            margin-bottom: 10px;
-            color: #666;
-        }
-        .custom-file-upload {
-
-            display: block;
-            width: 100%;
-            border-radius: 5px;
-            padding: 10px;
-            cursor: pointer;
-            text-align: center;
-            color: #007bff;
-        }
-
-.custom-file-upload:hover {
-    background-color: #f0f0f0;
-}
-
-        .button {
-    display: block;
-    width: calc(100% - 22px);
-    /* max-width: 200px; */ /* Eliminado para permitir que el botón ocupe todo el ancho */
-    /* margin: 0 auto; */ /* Eliminado para permitir que el botón ocupe todo el ancho */
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    text-align: center;
-    transition: background-color 0.3s ease;
-    text-decoration: none;
-}
-
-.button:hover {
-    background-color: #45a049;
-}
-
-        .upload-message {
-            margin-top: 10px;
-            color: #4CAF50;
-            font-style: italic;
-        }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
     }
 
-    .button-container {
-    text-align: center;
-    margin-top: 20px; /* Ajusta el margen según sea necesario */
-}
+    .wpo-event-item {
+        text-align: center;
+    }
 
-.button-container .button {
-    margin: 0 10px; /* Ajusta el margen entre botones según sea necesario */
-}
+    .wpo-event-text {
+        margin-top: 20px;
+    }
 
+    .button, .custom-file-upload {
+        display: inline-block;
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .button:hover, .custom-file-upload:hover {
+        background-color: #45a049;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
 </style>
 
 <script>
@@ -142,8 +81,12 @@
                                 Elegir foto de galería o tomar una foto
                             </label>
 
+
+
                             <input type="file" name="image" id="image" style="display:none;">
+
                             <div class="button-container">
+                                <br>
                                 <button class="button" type="submit" onclick="return showSuccessMessage()">Subir a Galería!</button>
                             </div>
                         </form>
