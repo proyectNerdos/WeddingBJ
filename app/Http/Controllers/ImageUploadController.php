@@ -8,29 +8,26 @@ use App\Models\Gallery;
 class ImageUploadController extends Controller
 {
     public function store(Request $request)
-    {
-        $request->validate([
-            'file' => 'required|mimes:jpeg,png,jpg,gif,svg,mp4,avi,wmv,flv|max:40000',
-        ]);
+{
+    $request->validate([
+        'file' => 'required|mimes:jpeg,png,jpg,gif,svg,mp4,avi,wmv,flv|max:20000',
+    ]);
 
-        Alert::success('Felicidades', 'Foto Cargada en la Galeria!');
+    $fileName = time().'.'.$request->file->extension();
 
-        $imageName = time().'.'.$request->image->extension();
+    $request->file->move(public_path('theme-front/casamiento/gallery'), $fileName);
 
+    $galleries = new Gallery;
+    $galleries->image = 'gallery/'.$fileName;
+    $galleries->image_filename = $fileName;
+    $galleries->save();
 
+    Alert::success('Felicidades', 'Archivo cargado en la galería!');
 
-        $request->image->move(public_path('theme-front/casamiento/gallery'), $imageName);
-
-        $galleries = new Gallery;
-        $galleries->image = 'gallery/'.$imageName;
-        $galleries->image_filename = $imageName;
-        $galleries->save();
-
-        return back()
-
-            ->with('success','Has subido la foto correctamente..')
-            ->with('image',$imageName);
-    }
+    return back()
+        ->with('success','Has subido el archivo correctamente.')
+        ->with('image',$fileName);
+}
 }
 
 
