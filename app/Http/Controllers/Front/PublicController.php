@@ -30,14 +30,14 @@ use App\Traits\Imagen;
 //AdminBaseController
 use App\Http\Controllers\AdminBaseController;
 
-class PublicController extends AdminBaseController
+class PublicController extends Controller
 {
     use Imagen;
 
-    public function __construct()
-    {
-        parent::__construct();
-    }
+    // public function __construct()
+    // {
+    //     parent::__construct();
+    // }
 
 
 
