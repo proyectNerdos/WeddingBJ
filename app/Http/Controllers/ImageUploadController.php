@@ -10,7 +10,7 @@ class ImageUploadController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:500000',
+            'file' => 'required|mimes:jpeg,png,jpg,gif,svg,mp4,avi,wmv,flv|max:40000',
         ]);
 
         Alert::success('Felicidades', 'Foto Cargada en la Galeria!');
