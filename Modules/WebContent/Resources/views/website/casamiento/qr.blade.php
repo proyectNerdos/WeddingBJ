@@ -16,8 +16,8 @@
             }
 
             .button, .custom-file-upload {
-                padding: 20px 40px; /* Aumenta el padding de los botones en dispositivos móviles */
-                font-size: 18px; /* Aumenta el tamaño de fuente de los botones en dispositivos móviles */
+                padding: 15px 30px; /* Aumenta el padding de los botones en dispositivos móviles */
+                font-size: 16px; /* Aumenta el tamaño de fuente de los botones en dispositivos móviles */
             }
         }
 
@@ -27,6 +27,8 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            max-width: 600px; /* Establece un ancho máximo para el contenedor */
+            margin: 0 auto; /* Centra el contenedor horizontalmente */
         }
 
         .wpo-event-item {
@@ -38,23 +40,23 @@
         }
 
         .button, .custom-file-upload {
-            display: block; /* Cambiado a display block para que ocupen toda la anchura disponible */
-            width: 100%; /* Ocupa todo el ancho disponible */
+            display: inline-block;
             background-color: #4CAF50;
             color: white;
-            padding: 20px 40px;
+            padding: 15px 30px;
             text-align: center;
             text-decoration: none;
-            font-size: 16px;
+            font-size: 18px;
             border: none;
-            border-radius: 10px;
+            border-radius: 25px;
             cursor: pointer;
             transition: background-color 0.3s ease;
-            margin-bottom: 20px; /* Espacio entre los botones */
+            margin-bottom: 20px;
+            margin-right: 10px;
         }
 
         .button:last-child {
-            margin-bottom: 0; /* Elimina el espacio inferior del último botón */
+            margin-right: 0;
         }
 
         .button:hover, .custom-file-upload:hover {
@@ -66,6 +68,16 @@
             padding: 0;
             margin: 0;
             text-align: center; /* Centra los botones dentro del contenedor */
+        }
+
+        /* Estilos del cartel de éxito */
+        .success-message {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            display: none; /* Oculta el cartel inicialmente */
         }
     </style>
 </head>
@@ -89,49 +101,47 @@
 
                 <ul>
                     <li>
-                        <form action="{{ url('/upload') }}" method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+                        <form id="upload-form" action="{{ url('/upload') }}" method="post" enctype="multipart/form-data" onsubmit="event.preventDefault(); uploadImage();">
                             @csrf
                             <label for="image" class="custom-file-upload" style="border: 1px solid #007bff;">
                                 <i class="fas fa-cloud-upload-alt"></i>
-                                Elegir foto de galería o tomar una foto
+                                Seleccionar foto de galería!
                             </label>
                             <input type="file" name="image" id="image" style="display:none;">
                             <div class="button-container">
-
-                                <button class="button" type="submit" onclick="return showSuccessMessage()">Subir a Galería!</button>
+                                <button class="button" type="submit" onclick="uploadImage()">Enviar Foto!</button>
                             </div>
                         </form>
                     </li>
                     <li>
-                        <br>
-                        <a href="{{ url('/galeria') }}" class="button">Ir a Galería</a>
+                        <a href="{{ url('/galeria') }}" class="button">Visitar Galería</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script>
-    // Función para mostrar la alerta de éxito solo si se ha seleccionado una foto
-    function showSuccessMessage() {
-        // Obtener el input de tipo archivo
-        var inputFile = document.getElementById('image');
-        // Verificar si se ha seleccionado una foto
-        if (inputFile.files.length > 0) {
-            // Mostrar la alerta de éxito
-            alert("¡Foto cargada exitosamente!");
-        }
-        // Permitir que el formulario se envíe independientemente de si se muestra la alerta o no
-        return true;
-    }
-</script>
+    function uploadImage() {
+      var formData = new FormData(document.getElementById('upload-form'));
 
+      $.ajax({
+        type: 'POST',
+        url: '{{ url('/upload') }}',
+        data: formData,
+        processData: false,
+        contentType: false,
+        success: function(data) {
+          alert('La foto se ha cargado con éxito!');
+          location.reload(); // Refresca la página
+        },
+        error: function(data) {
+          alert('Hubo un error al cargar la foto. Por favor, seleccione primero una imagen.');
+        }
+      });
+    }
+    </script>
 </body>
 </html>
-
-
-
-
-
-
