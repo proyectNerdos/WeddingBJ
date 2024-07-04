@@ -54,7 +54,7 @@
                                             <a  href="{{ route('home') }}">Home</a>
                                         </li>
                                        <li class="">
-                                            <a href="#event">Evento</a>
+                                            <a href="#event">Eventos</a>
                                         </li>
                                         <li class="">
                                             <a href="#acompañanos">Acompañanos</a>
