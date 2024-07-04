@@ -31,7 +31,9 @@ class ImageUploadController extends Controller
             ->with('success','Has subido la foto correctamente..')
             ->with('image',$imageName);
     }
+
 }
+
 
 
 
