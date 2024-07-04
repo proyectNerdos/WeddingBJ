@@ -54,7 +54,7 @@
                                             <a  href="{{ route('home') }}">Home</a>
                                         </li>
                                        <li class="">
-                                            <a href="#event">Eventos</a>
+                                            <a href="#event">Evento</a>
                                         </li>
                                         <li class="">
                                             <a href="#acompañanos">Acompañanos</a>
@@ -472,7 +472,8 @@
                                     </div>
 
                                     <div class="submit-area">
-                                        <button type="submit" class="theme-btn">Enviar Asistencia</button>
+                                        <button class="theme-btn">Enviar Asistencia</button>
+                                        {{-- <button type="submit" class="theme-btn">Enviar Asistencia</button> --}}
                                         <div id="c-loader">
                                             <i class="ti-reload"></i>
                                         </div>
