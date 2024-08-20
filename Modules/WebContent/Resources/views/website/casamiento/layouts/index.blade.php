@@ -441,7 +441,7 @@
 </section>
 
         <!-- start of wpo-contact-section -->
-        <section class="wpo-contact-section section-padding" id="asistencia">
+        {{-- <section class="wpo-contact-section section-padding" id="asistencia">
             <div class="container-fluid">
                 <div class="row justify-content-center">
                     <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
@@ -473,7 +473,6 @@
 
                                     <div class="submit-area">
                                         <button class="theme-btn">Enviar Asistencia</button>
-                                        {{-- <button type="submit" class="theme-btn">Enviar Asistencia</button> --}}
                                         <div id="c-loader">
                                             <i class="ti-reload"></i>
                                         </div>
@@ -514,7 +513,7 @@
                     <img src="{{ asset('theme-front/casamiento/images/rsvp/shape6.svg') }}" alt="">
                 </div>
             </div>
-        </section>
+        </section> --}}
 
 
 
